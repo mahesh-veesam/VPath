@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-button {
+    background-color: #ddd;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.scroll-content::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.scroll-item {
+    flex: none;
+    min-width: 200px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    scroll-snap-align: start;
+}
+
+.scroll-button.left {
+    position: absolute;
+    left: 0;
+}
+
+.scroll-button.right {
+    position: absolute;
+    right: 0;
+}
