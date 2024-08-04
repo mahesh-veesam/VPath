@@ -20,13 +20,19 @@ function mtech(){
     }
 }
 
-console.log(this)
-
 let btns = document.querySelectorAll(".subs .btn")
 btns.forEach(btn => {
     btn.addEventListener("click",function() {
         
         btns.forEach(btn => btn.classList.remove("btn-clicked"));
+        this.classList.add("btn-clicked");
+    });
+});
+let btns2 = document.querySelectorAll(".se-subs1 .btn")
+btns2.forEach(btn => {
+    btn.addEventListener("click",function() {
+        
+        btns2.forEach(btn => btn.classList.remove("btn-clicked"));
         this.classList.add("btn-clicked");
     });
 });
@@ -510,7 +516,7 @@ function label1(){
     let scroll = document.querySelector(".scroll-item1")
     console.log("btn clicked")
     scroll.style.marginLeft = "20px"
-    scroll.style.transition = "0.2s"
+    scroll.style.transition = "0.3s"
 }
 function label2(){
     let labels = document.querySelectorAll(".label")
