@@ -376,17 +376,6 @@ h5{
         opacity: 10px;
         border-radius: 16px;
         flex: 1 1 400px;
-
-    }
-    .courses{
-        padding: 1rem 0.3rem 1.5rem 0.3rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        overflow-x: auto;
-    
     }
     .label{
         text-align: center;
