@@ -277,13 +277,27 @@ h5{
 .se-subs1 button{
     margin: 10px 20px;
 } 
+.se-subs1 .btn:hover{
+    box-shadow: 0px 1px 25px rgb(16, 6, 100,0.6);
+    transform: scaleX(1.05);
+    background:var(--secondary-color);
+}
+.se-subs1 .btn{
+    border-radius: 16px;
+    border-width: 2px;
+}
+.btn-clicked{
+    background:var(--primary-color);
+}
+
 @media (min-width: 800px) {
-    .subjects{ 
+
+    #subjects{ 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         width: 400px;
         height: 670px;
         margin: 30px;
@@ -348,6 +362,22 @@ h5{
         box-shadow: 0px 1px 25px rgb(16, 6, 100,0.6);
         transform: scaleX(1.05);
     }
+    /* SENIOR */
+    .subjects{ 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+        height: 670px;
+        margin: 30px;
+        background:var(--secondary-color);
+        opacity: 10px;
+        border-radius: 16px;
+        flex: 1 1 400px;
+
+    }
     .courses{
         padding: 1rem 0.3rem 1.5rem 0.3rem;
         display: flex;
@@ -359,9 +389,22 @@ h5{
     
     }
     .label{
+        text-align: center;
+        margin-left: 5px;
         height: 10px;
         width: 10px;
+        margin: 0px 8px;
         border-radius: 50%;
+        border: none;
+        background-color: rgb(0, 0, 0);
+    }
+    .label:hover{
+        background-color: white;
+        transition: 0.6s;
+    }
+    .labels{
+        margin-left: 12px;
+        margin-bottom: 70px;
         background-color: red;
     }
     .radio-btns input{
@@ -376,18 +419,57 @@ h5{
         margin-right:20px;
     }
     .subjects .slides{
-        height: 25rem;
-        margin: 0px 30px;
-        
+        height: 29rem;
+        margin: 0px 30px ;
+        padding-top: 30px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: red;
+        background-color: rgba(0, 0, 0, 0);
         overflow-x: auto;
     }
     .slides::-webkit-scrollbar{
         width: 0;
     }
+    .se-subs1 button{
+        margin: 30px 20px 10px 20px;
+    }
+    .text button{
+        border: 2px solid rgba(255, 255, 255, 0.459);
+        border-radius: 50px 1px;
+        background:var(--secondary-color);
+        text-align: center;
+        padding: 5px 40px;
+        color: white;
+    }
+    #radio1:checked ~ .scroll-item1{
+        background-color: red;
+        margin-left: -20%;
+    }
+    #radio2:checked ~ .scroll-item1{
+        background-color: rgb(0, 255, 0);
+        margin-left: -20%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

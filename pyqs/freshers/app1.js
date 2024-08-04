@@ -415,11 +415,13 @@ function eng1003(){
     let code = document.querySelectorAll(".coco");
     for(i of code) {
         i.innerText="PHY1008";
+         i.style.transition = "0.5s"
     }
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
         i.innerText="BEEE";
+         i.style.transition = "0.5s"
     }
 }
 function mat1002(){
@@ -491,11 +493,37 @@ function ece1005(){
     let code = document.querySelectorAll(".coco");
     for(i of code) {
         i.innerText="ECE1005";
+        i.style.transition = "0.5s"
     }
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
         i.innerText="BEEE";
+        i.style.transition = "0.5s"
     }
+
+
+}
+
+function label1(){
+    let labels = document.querySelectorAll(".label")
+    let scroll = document.querySelector(".scroll-item1")
+    console.log("btn clicked")
+    scroll.style.marginLeft = "20px"
+    scroll.style.transition = "0.2s"
+}
+function label2(){
+    let labels = document.querySelectorAll(".label")
+    let scroll = document.querySelector(".scroll-item1")
+    console.log("btn clicked")
+    scroll.style.marginLeft = "-137px"
+    scroll.style.transition = "0.6s"
+}
+function label3(){
+    let labels = document.querySelectorAll(".label")
+    let scroll = document.querySelector(".scroll-item1")
+    console.log("btn clicked")
+    scroll.style.marginLeft = "-274px"
+    scroll.style.transition = "1s"
 }
 
