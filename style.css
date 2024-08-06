@@ -263,17 +263,6 @@ h5{
     border: 2px solid rgba(255, 255, 255, 0.459);
     border-radius: 50px 1px ;
 }
-.courses{
-    padding: 1.5rem 0.3rem 1.5rem 0.3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    overflow-x: auto;
-
-}
-.courses::-webkit-scrollbar{
-    width: 0;
-}
 .se-subs1 button{
     margin: 10px 20px;
     padding: 5px 13px;
@@ -495,15 +484,6 @@ h5{
         opacity: 0.5;
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
