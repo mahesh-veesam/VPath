@@ -24,6 +24,7 @@
     --secondary-color:linear-gradient(to right ,rgba(10, 10, 19, 0.959),rgba(8, 13, 53, 0.473),rgba(1, 25, 78, 0.521));
     --secondary-color-rev:linear-gradient(to right,rgba(1, 25, 78, 0.521),rgba(8, 13, 53, 0.473),rgba(10, 10, 19, 0.959));
     --text-color:linear-gradient(white,blue)
+    /* --arrow-color : linear-gradient(to bottom,white,black) */
 }
 
 .pd{
@@ -328,7 +329,7 @@ h5{
         height: 670px;
         margin: 30px;
         padding: 30px 50px 0px 50px;
-        flex:10 2 900px;
+        flex:10 4 900px;
     }
     .sub{
         margin: 8px 0px;
@@ -347,13 +348,12 @@ h5{
         display:flex;
         flex-direction: row;
     }
-
     .subs .btn:hover{
         box-shadow: 0px 1px 25px rgb(16, 6, 100,0.6);
         transform: scaleX(1.05);
     }
     /* SENIOR */
-    .subjects{ 
+    .subjects{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -430,7 +430,6 @@ h5{
     .labels{
         display: none;
     }
-
     .subjects{
         display: none;
     }
@@ -465,23 +464,34 @@ h5{
         display: flex;
         flex-direction: column ;
         flex-wrap: wrap;
-        margin: 0px 20px ;
+        justify-content: space-around;
         padding: 0px 20px ;
     }
     .se-subs2 button{
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     .slides1::-webkit-scrollbar{
         width: 0;
     }
-    .arrow{
+    .arrow i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 42px;
+        color: white;
         position: relative;
-        height: 60px;
-        width: 300px;
+        width: 240px;
         bottom: 40px;
-        border-radius: 0px 0px 20px 20px;
-        background:var(--primary-color);
-        opacity: 0.5;
+        background :linear-gradient(to bottom ,rgba(1, 25, 78, 0.1),rgba(0, 17, 53, 0.8));
+    } 
+    .se-subs2 .btn:hover{
+        box-shadow: 0px 1px 25px rgb(16, 6, 100,0.6);
+        transform: scaleX(1.05);
+        background:var(--secondary-color);
+    }
+    .se-subs2 .btn{
+        border-radius: 16px;
+        border-width: 2px;
     }
 }
 

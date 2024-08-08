@@ -33,7 +33,7 @@
         <nav class="pd">
             <div class="fs">
             
-                <a href="../freshers/btech.html"><button type="button" class="btn btn-outline-primary se">Freshers</button></a>
+                <a href="../freshers/mtech.html"><button type="button" class="btn btn-outline-primary se">Freshers</button></a>
                 <a href=""><button type="button" class="btn btn-outline-primary fr">Seniors</button></a>
             </div>
             <br>
@@ -41,11 +41,11 @@
                 <div class="dt"> &nbsp;Select Course Code : </div>
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="true" style="width: 160px;">
-                       &nbsp; CSE &nbsp;
+                       &nbsp; SWE &nbsp;
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="">CSEXXXX</a></li>
-                        <li><a class="dropdown-item" href="swe.html">SWEXXXX</a></li>
+                        <li><a class="dropdown-item" href="cse.html">CSEXXXX</a></li>
+                        <li><a class="dropdown-item" href="">SWEXXXX</a></li>
                         <li><a class="dropdown-item" href="mat.html">MATXXXX</a></li>
                         <li><a class="dropdown-item" href="ece.html">ECEXXXX</a></li>
                         <li><a class="dropdown-item" href="mec.html">MECXXXX</a></li>
@@ -53,25 +53,73 @@
                 </div>
             </div> 
         </nav>
-        <hr style="margin: 20px 30px; color:white">
+        <hr style="margin: 20px 30px; color:white">  
         <main class="section">
-            <aside id="subjects">
-                <div id="subs1"> 
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
-                        <a href="#"><button type="button" class="btn btn-primary">CSEXXXX</button></a>
+            <aside class="subjects">
+                <div class="text">
+                    <button>Select Course</button>
+                </div>
+                <div class="slides">
+                    <div class="se-subs1 scroll-item1">
+                        <button type="button" class="btn btn-primary">SWE1XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE1XX5</button>
+                    </div>
+                    <div class="se-subs1 scroll-item2">
+                        <button type="button" class="btn btn-primary">SWE2XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>  
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE2XX5</button>     
+                    </div>
+                    <div class="se-subs1 scroll-item3" id="last-sub">
+                        <button type="button" class="btn btn-primary">SWE3XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE3XX5</button>                      
+                    </div>
+                </div>
+                <div class="labels">
+                    <button class="label" onclick="label1()"></button>
+                    <button class="label" onclick="label2()"></button>
+                    <button class="label" onclick="label3()"></button>
+                </div>
+            </aside>
+            <aside class="subjects1">
+                <div class="text">
+                    <button>Select Course</button>
+                </div>
+                <div class="slides1">
+                    <div class="se-subs2 scroll-item1">
+                        <button type="button" class="btn btn-primary">SWE1XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE1XX5</button>
+                        <button type="button" class="btn btn-primary">SWE2XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>  
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE2XX5</button>     
+                    </div>
+                    <div class="se-subs2 scroll-item3" id="last-sub">
+                        <button type="button" class="btn btn-primary">SWE3XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE3XX5</button>  
+                        <button type="button" class="btn btn-primary">SWE2XX1</button>
+                        <button type="button" class="btn btn-primary">SWEXXX2</button>  
+                        <button type="button" class="btn btn-primary">SWEXXX3</button>
+                        <button type="button" class="btn btn-primary">SWEXXX4</button>
+                        <button type="button" class="btn btn-primary">SWE2XX5</button>                         
+                    </div>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-down"></i>
                 </div>
             </aside>
             <hr class="hr2" style="margin: 20px 30px; color:white">
@@ -138,7 +186,7 @@
            </div>
         </footer>
     </div>
-    <script src="../app.js"></script>
+    <script src="../freshers/app1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
