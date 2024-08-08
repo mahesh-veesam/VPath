@@ -516,7 +516,7 @@ function label1(){
     let scroll = document.querySelector(".scroll-item1")
     console.log("btn clicked")
     scroll.style.marginLeft = "20px"
-    scroll.style.transition = "0.3s"
+    scroll.style.transition = "0.6s"
 }
 function label2(){
     let labels = document.querySelectorAll(".label")
