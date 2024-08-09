@@ -36,6 +36,14 @@ btns2.forEach(btn => {
         this.classList.add("btn-clicked");
     });
 });
+let btns3 = document.querySelectorAll(".se-subs2 .btn")
+btns3.forEach(btn => {
+    btn.addEventListener("click",function() {
+        
+        btns3.forEach(btn => btn.classList.remove("btn-clicked"));
+        this.classList.add("btn-clicked");
+    });
+});
 
 function mat1008(){
     console.log("Button clicked");
