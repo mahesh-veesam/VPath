@@ -27,7 +27,7 @@ body{
 .head #vpath{
     position: relative;
     margin: 1rem;
-    width: 210px;
+    width: 190px;
     height: 70px;
     mix-blend-mode:lighten;
 }
@@ -70,7 +70,6 @@ ul li{
     color: rgba(233, 247, 247, 0.945);
     word-spacing: 2px;
     color: white;
-    /* letter-spacing: 1px; */
 }
 .aside h1{
     margin-left: 3%;
@@ -147,34 +146,37 @@ ul li{
     align-items: center;
     font-size: 22px;
 }
-.em{
+.em a i{
     margin: 10px;
     opacity: 0.5;
+    color: white;
 }
-.in{
+.in a i{
     margin: 10px;
     opacity: 0.5;
+    color: white;
 }
-.li{
+.li a i{
     margin: 10px;
     opacity: 0.5;
+    color: white;
 }
-.em:hover{
-    transform: scale(1.4);
+.em a i:hover{
+    transform: scale(1.3);
     transition: 0.5s;
     opacity: 1;  
     color: #0092b7;
 }
-.in:hover{
-    transform: scale(1.4);
+.in a i:hover{
+    transform: scale(1.3);
     transition: 0.5s;
     opacity: 1;
     background-image: var(--instagram);
     background-clip: text;
-    color: transparent;
+    color: transparent;  
 }
-.li:hover{
-    transform: scale(1.4);
+.li a i:hover{
+    transform: scale(1.3);
     transition: 0.5s;
     opacity: 1;
     color: #0075b7;
@@ -184,7 +186,9 @@ ul li{
         height: 90px;
     }
     .head #vpath{
-        height: 50px;
+        top: 4px;
+        width: 140px;
+        height: 55px;
     }
     .head #vit{
         top: 10px;
