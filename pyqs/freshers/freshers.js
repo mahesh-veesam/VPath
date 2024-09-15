@@ -1,13 +1,13 @@
 function mtech(){
-    console.log("Button clicked");
+    
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
     link[1].setAttribute("href","../btech.html" );
     link[2].setAttribute("href","../mtech.html" );
     link[3].setAttribute("href","../btech.html" );
-
-    
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -46,7 +46,8 @@ btns3.forEach(btn => {
 });
 
 function mat1008(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -67,8 +68,9 @@ function mat1008(){
 }
 
 function swe1004(){
-    console.log("Button clicked");
 
+    scroll();
+    returnScroll();
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
     link[1].setAttribute("href","../btech.html" );
@@ -87,6 +89,8 @@ function swe1004(){
 }
 
 function chy1002(){
+    scroll();
+    returnScroll();
     
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -106,7 +110,8 @@ function chy1002(){
 }
 
 function ece1005(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -126,7 +131,8 @@ function ece1005(){
 }
 
 function eng1005(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -146,7 +152,8 @@ function eng1005(){
 }
 
 function eng1006(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -166,7 +173,8 @@ function eng1006(){
 }
 
 function phy1005(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -186,7 +194,8 @@ function phy1005(){
 }
 
 function mat1009(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -206,7 +215,8 @@ function mat1009(){
 }
 
 function mat1014(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -225,7 +235,8 @@ function mat1014(){
     }
 
 }function swe2005(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -245,7 +256,8 @@ function mat1014(){
 }
 
 function ece1006(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -265,7 +277,8 @@ function ece1006(){
 }
 
 function eng2004(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -285,7 +298,8 @@ function eng2004(){
 }
 
 function mat1001(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -305,7 +319,8 @@ function mat1001(){
 }
 
 function cse1012(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -324,7 +339,8 @@ function cse1012(){
     }
 }
 function chy1009(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -343,7 +359,8 @@ function chy1009(){
     }
 }
 function ece1002(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -362,7 +379,8 @@ function ece1002(){
     }
 }
 function eng1001(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -381,7 +399,8 @@ function eng1001(){
     }
 }
 function ece1003(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -400,7 +419,8 @@ function ece1003(){
     }
 }
 function eng1003(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -418,7 +438,8 @@ function eng1003(){
         i.innerText="BEEE";
     }
 }function phy1008(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -439,7 +460,8 @@ function eng1003(){
     }
 }
 function mat1002(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -458,7 +480,8 @@ function mat1002(){
     }
 }
 function cse2005(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -477,7 +500,8 @@ function cse2005(){
     }
 }
 function eng2001(){
-    console.log("Button clicked");
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -496,7 +520,9 @@ function eng2001(){
     }
 }
 function ece1005(){
-    console.log("Button clicked");
+
+    scroll();
+    returnScroll();
 
     let link = document.querySelectorAll(".di a");
     link[0].setAttribute("href","../mtech.html" );
@@ -519,25 +545,15 @@ function ece1005(){
 
 }
 
-function label1(){
-    let labels = document.querySelectorAll(".label")
-    let scroll = document.querySelector(".scroll-item1")
-    console.log("btn clicked")
-    scroll.style.marginLeft = "20px"
-    scroll.style.transition = "0.6s"
-}
-function label2(){
-    let labels = document.querySelectorAll(".label")
-    let scroll = document.querySelector(".scroll-item1")
-    console.log("btn clicked")
-    scroll.style.marginLeft = "-137px"
-    scroll.style.transition = "0.6s"
-}
-function label3(){
-    let labels = document.querySelectorAll(".label")
-    let scroll = document.querySelector(".scroll-item1")
-    console.log("btn clicked")
-    scroll.style.marginLeft = "-274px"
-    scroll.style.transition = "1s"
+const mobileScreen = function(){
+    return window.matchMedia("(max-width : 800px)").matches;
 }
 
+const scroll = function(){
+    if(mobileScreen()){
+        window.location.hash = "container";
+    }
+}
+const returnScroll = function(){
+    window.location.hash = "sroll-down";
+}

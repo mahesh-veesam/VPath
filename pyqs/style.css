@@ -96,9 +96,13 @@ h3{
     position: relative;
     margin: 1.5rem 0.5rem;
     display: flex;
+
     justify-content: space-evenly;
     align-items: center;
 }
+/* .dd-se{
+    flex-direction: column; 
+} */
 .dt{
     font-size: 18px;
     color: #ffffff;
@@ -173,8 +177,9 @@ h3{
 
 }
 .sub h5{
-    color:  rgb(179, 175, 226); 
-    padding: 8px 26px; 
+    color:  rgb(218, 218, 250); 
+    padding: 8px 26px;
+    padding-bottom: 0px; 
     cursor:auto;
 }
 .sub{
@@ -344,16 +349,8 @@ h5{
     }
     .sub{
         margin: 8px 0px;
+        margin-bottom: 0px;
         cursor:auto;
-       
-    }
-    .sub button{
-        border: 2px solid rgba(255, 255, 255, 0.459);
-        border-radius: 50px 1px;
-        background:var(--secondary-color);
-        text-align: center;
-        padding: 5px 60px;
-        color: white;
     }
     .section{
         display:flex;
@@ -381,17 +378,22 @@ h5{
     .label{
         text-align: center;
         margin-left: 5px;
-        height: 10px;
-        width: 10px;
+        height: 14px;
+        width: 14px;
         margin: 0px 8px;
         border-radius: 50%;
+        background-color: rgb(50, 64, 187);
         border: none;
-        background-color: rgb(0, 0, 0);
+        display: inline-block;
     }
     .label:hover{
-        background-color: white;
-        transition: 0.6s;
-        background:var(--secondary-color);
+        background-color: rgb(35, 4, 48);
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        transition: 0.3s;
+        /* background:var(--secondary-color); */
+        border: 1px solid rgba(200, 200, 226, 0.5);
     }
     .labels{
         margin-left: 12px;
@@ -454,7 +456,7 @@ h5{
         align-items: center;
         justify-content: flex-start;
         width: auto 0;
-        height: 500px;
+        height: 439px;
         margin: 30px;
         background:var(--secondary-color);
         opacity: 10px;
@@ -464,7 +466,7 @@ h5{
     }
     .slides1{
         margin-top:60px ;
-        height: 300px;
+        height: 236px;
         width: auto 0;
         display: flex;
         flex-direction: row;

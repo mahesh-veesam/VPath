@@ -14,7 +14,7 @@ body{
     --text-color:linear-gradient(to top right,blue,aqua);
     --color-one:linear-gradient(to right, aqua,white,wheat,rgb(177, 143, 143));
     --color-two:linear-gradient(to top right,blue,aqua,rgb(3, 3, 36));
-    --instagram:linear-gradient(to right,#f9ce34,#ee2a7b,#6228d7);
+    --instagram:linear-gradient(to right top,#f9ce34,#ee2a7b,#6228d7);
 }
 .head{
     position: fixed;
@@ -27,7 +27,8 @@ body{
 .head #vpath{
     position: relative;
     margin: 1rem;
-    height: 65px;
+    width: 210px;
+    height: 70px;
     mix-blend-mode:lighten;
 }
 .head #vit{
@@ -112,7 +113,7 @@ ul li{
     text-align: center;
 }
 .section a:hover{
-    background-image: var(--text-color);
+    background-image: var(--text-color);    
     transform: scale(1.1);
     transition: 0.6s;
 }
@@ -187,7 +188,7 @@ ul li{
     }
     .head #vit{
         top: 10px;
-        height: 40px;
+        height: 45px;
     }
         
     .aside{
