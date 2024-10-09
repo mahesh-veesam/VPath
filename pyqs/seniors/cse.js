@@ -1,24 +1,5 @@
-let width = window.innerWidth
-let mobileScreen = width<800;
-console.log(width)
 
-function size(){
-    if(mobileScreen){
-        let dt = document.querySelector(".dt")
-        dt.innerHTML = "Select Code &nbsp;:"
-    }
-}
-size()
-const scroll = function(){
-    if(mobileScreen){
-        window.location.hash = "sroll-down" ;
-    }
-}
-const returnScroll = function(){
-    window.location.hash = "container";
-}
 function cse2001(){
-    
     scroll();
     returnScroll();
 
