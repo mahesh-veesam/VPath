@@ -4,10 +4,10 @@ function mtech(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -50,10 +50,10 @@ function mat1008(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/10GMlsZq5NyBuvrWmqscAgWtA96Y9yBs5?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/10JEH4ZWXZCWN9otlpUtAz3v6c3uQCa19?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/10RTJKQrZaCkM3fhnzM2Wc5-dVRuYibhr?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/10RzV2xvHsppyHND0dG4Jp74X-1SNzWD5?usp=drive_link" );
     
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -62,9 +62,8 @@ function mat1008(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Fundamentals of calculus";
+        i.innerText="Calculus";
     }
-
 }
 
 function swe1004(){
@@ -72,10 +71,10 @@ function swe1004(){
     scroll();
     returnScroll();
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1mpmNGRRzTh_5iwg9DEs3ko_44WivE7GQ?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1mqqDcljG00fUJa6Kg-DKlBO7VBp3zMux?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1my6RQ9lTTLUNx80wuuUaiWhGbxfeMiFm?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1n4VUtTZ86aYb5nycTq4VL0kZ22Rf3Yyg?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -84,7 +83,7 @@ function swe1004(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Intro.. to Pro.. in Python";
+        i.innerText="Python";
     }
 }
 
@@ -93,10 +92,10 @@ function chy1002(){
     returnScroll();
     
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1of_gmBaVUbG6FmkUi7PQ5JDrnSeR_HmI?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1oiRO0-qC3j8gekBEYLIgIJFQM41ch7Kq?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1ojsW9LSvXhN79DmHYt2ZYE36gaH37lsk?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1or93H8WuLAp-ySL2qKpdZSojIdBOCWa5?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -105,7 +104,7 @@ function chy1002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Env. Studies & Chemistry";
+        i.innerText="Chemistry";
     }
 }
 
@@ -114,10 +113,10 @@ function ece1005(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1oJtHYEF-NZxVC9FZClMjYashq_rUXrgu?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1oLBwyOl_UgFrp42XiCK5YKD-vj2X0c4J?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1oQ2E3O12Q-MrSyF0bAy8SYSkI3PGEhpr?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1oRTUISkZf3baRQXxsBFLWreFxos1XYOk?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -129,16 +128,15 @@ function ece1005(){
         i.innerText="BEEE";
     }
 }
-
 function eng1005(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -147,19 +145,18 @@ function eng1005(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Basic comm.. in English";
+        i.innerText="English (Basic)";
     }
 }
-
 function eng1006(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -168,19 +165,18 @@ function eng1006(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Func.. comm.. in English";
+        i.innerText="English (Func)";
     }
 }
-
 function phy1005(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1n4oM-GIFdJKW48biygXpEDAwCUytcgio?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1n7ceVCvLw55Qtw0bFsXLRQNhDeERw461?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1n9fS0n75c9Zlk0TmhGjx66BWNemne2x1?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1nB1DaZXS07f71p2q3h1K6FAnWIRfGi0l?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -189,19 +185,18 @@ function phy1005(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Fund.. of Engg.. Physics";
+        i.innerText="Physics";
     }
 }
-
 function mat1009(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1mGkPgQKPgcgO4cYaT5Ie1wxmK8W8GSa5?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1mI02yBTPpqhPmZS9WFGdMRs3mkVIaF3l?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1mN3wNJbKi8qoRldw7zV6Bm9i781d0GxE?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1mRHOY6po23RCAoh4qG0xocp9E5sAB55K?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -210,19 +205,18 @@ function mat1009(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Apllied Linear Algebra";
+        i.innerText="Linear Algebra";
     }
 }
-
 function mat1014(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1lzFI9tVtAMvWQHf-PwFbI9HDaCz5vQAU?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1m-DlHYRVAscGTNnfRcOzmtBHuvsHdwUn?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1m0-a6Fsq9NFg-SHJuHmdEX1jTfiw_i3A?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1m6JgA9j7vO8EAt8iNfcpNLfIhFtIqv3v?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -231,18 +225,19 @@ function mat1014(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Fundamental Statistics";
+        i.innerText="Statistics";
     }
 
-}function swe2005(){
+}
+function swe2005(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1maFBER8bmzHxckfCWkaqXrc48VoRwn3a?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1mbJfAgJNgBAU7iAjuqRlWvafr_oEZFK3?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1mnWeDINlF2-DPwMHjISnfrWSLgjZZAqO?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1mpELDNMcq6gVwppR7u5Rlp9jJPppyidH?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -251,19 +246,18 @@ function mat1014(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Concepts of OOPs";
+        i.innerText="OOPs";
     }
 }
-
 function ece1006(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1o4F-WRuSeuPZMyherFO0_UULuDl28XTM?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1o6mWzjjHkvIA3F0ioFKzNjyDcsKuSgCe?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1oItZPNh8HWThjma5HAjMOZgpi6ix_A_H?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1oJqITdk6kE_Z_eqmJuaUZLtkMPrxpn9_?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -272,19 +266,18 @@ function ece1006(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Digital Logics & Micropro..";
+        i.innerText="DLM";
     }
 }
-
 function eng2004(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -293,19 +286,18 @@ function eng2004(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Advanced Prof.. English";
+        i.innerText="English (Adv)";
     }
 }
-
 function mat1001(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -317,16 +309,15 @@ function mat1001(){
         i.innerText="BEEE";
     }
 }
-
 function cse1012(){
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -335,7 +326,7 @@ function cse1012(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="Python";
     }
 }
 function chy1009(){
@@ -343,10 +334,10 @@ function chy1009(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -355,7 +346,7 @@ function chy1009(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="Chemistry";
     }
 }
 function ece1002(){
@@ -363,10 +354,10 @@ function ece1002(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -383,10 +374,10 @@ function eng1001(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -403,10 +394,10 @@ function ece1003(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -415,7 +406,7 @@ function ece1003(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="DLM";
     }
 }
 function eng1003(){
@@ -423,10 +414,10 @@ function eng1003(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -442,21 +433,19 @@ function eng1003(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
         i.innerText="PHY1008";
-         i.style.transition = "0.5s"
     }
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
-         i.style.transition = "0.5s"
+        i.innerText="Physics";
     }
 }
 function mat1002(){
@@ -464,10 +453,10 @@ function mat1002(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -484,10 +473,10 @@ function cse2005(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -496,7 +485,7 @@ function cse2005(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="OOPs";
     }
 }
 function eng2001(){
@@ -504,10 +493,10 @@ function eng2001(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -516,39 +505,33 @@ function eng2001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="English";
     }
 }
 function ece1005(){
-
     scroll();
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","../mtech.html" );
-    link[1].setAttribute("href","../btech.html" );
-    link[2].setAttribute("href","../mtech.html" );
-    link[3].setAttribute("href","../btech.html" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
         i.innerText="ECE1005";
-        i.style.transition = "0.5s"
     }
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
         i.innerText="BEEE";
-        i.style.transition = "0.5s"
     }
-
-
 }
 
 const mobileScreen = function(){
     return window.matchMedia("(max-width : 800px)").matches;
 }
-
 const scroll = function(){
     if(mobileScreen()){
         window.location.hash = "container";

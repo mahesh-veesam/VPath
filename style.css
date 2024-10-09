@@ -150,16 +150,19 @@ ul li{
     margin: 10px;
     opacity: 0.5;
     color: white;
+    font-size: 25px;
 }
 .in a i{
     margin: 10px;
     opacity: 0.5;
     color: white;
+    font-size: 23px;
 }
 .li a i{
     margin: 10px;
     opacity: 0.5;
     color: white;
+    font-size: 22px;
 }
 .em a i:hover{
     transform: scale(1.3);

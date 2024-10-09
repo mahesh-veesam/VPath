@@ -40,7 +40,7 @@
             <div class="title"> V PATH</div>
             <div class="house"><a href="../../index.html"><i class="fa-solid fa-house"></i></a></div>
         </header>
-        <div><h3>Previous&nbsp; Year &nbsp;Question &nbsp;Papers<hr></h3></div>
+        <div><h3>Previous Year Question Papers<hr></h3></div>
         <nav class="pd">
             <div class="fs">
             
@@ -51,20 +51,18 @@
             <div class="dd dd-se" >
                 <div class="dt"> &nbsp;Select Course Code : </div>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="true" style="width: 160px;">
+                    <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="true" style="width: 145px;">
                     SWE &nbsp;
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="cse.html">CSEXXXX</a></li>
                         <li><a class="dropdown-item" href="">SWEXXXX</a></li>
-                        <li><a class="dropdown-item" href="mat.html">MATXXXX</a></li>
-                        <li><a class="dropdown-item" href="ece.html">ECEXXXX</a></li>
-                        <li><a class="dropdown-item" href="mec.html">MECXXXX</a></li>
+                        <li><a class="dropdown-item" href="cse.html">CSEXXXX</a></li>
+                        <li><a class="dropdown-item" href="mat.html">MATXX, ECEXX</a></li>
                     </ul>
                 </div>
             </div> 
         </nav>
-        <hr style="margin: 20px 30px; color:white">  
+        <hr style="margin: 20px 30px; color:white" id="sroll-down">  
         <main class="section">
             <aside class="subjects">
                 <div class="text">
@@ -72,25 +70,25 @@
                 </div>
                 <div class="slides"> 
                     <div class="se-subs1 scroll-item1">
-                        <button type="button" class="btn btn-primary">SWE1002</button>
-                        <button type="button" class="btn btn-primary">SWE2007</button>
-                        <button type="button" class="btn btn-primary">SWE2006</button>
-                        <button type="button" class="btn btn-primary">SWE3001</button>
-                        <button type="button" class="btn btn-primary">SWE3002</button>
+                        <button type="button" onclick="swe1002()" class="btn btn-primary">SWE1002</button>
+                        <button type="button" onclick="swe2007()" class="btn btn-primary">SWE2007</button>
+                        <button type="button" onclick="swe2006()" class="btn btn-primary">SWE2006</button>
+                        <button type="button" onclick="swe3001()" class="btn btn-primary">SWE3001</button>
+                        <button type="button" onclick="swe3002()" class="btn btn-primary">SWE3002</button> 
                     </div>
                     <div class="se-subs1 scroll-item2">
-                        <button type="button" class="btn btn-primary">SWE2001</button>
-                        <button type="button" class="btn btn-primary">SWE2008</button>  
-                        <button type="button" class="btn btn-primary">SWE4001</button>
-                        <button type="button" class="btn btn-primary">SWE4002</button>
-                        <button type="button" class="btn btn-primary">SWE2004</button>     
+                        <button type="button" onclick="swe2001()" class="btn btn-primary">SWE2001</button>
+                        <button type="button" onclick="swe2008()" class="btn btn-primary">SWE2008</button>  
+                        <button type="button" onclick="swe2009()" class="btn btn-primary">SWE2009</button> 
+                        <button type="button" onclick="swe3003()" class="btn btn-primary">SWE3003</button>
+                        <button type="button" onclick="swe3004()" class="btn btn-primary">SWE3004</button> 
                     </div>
                     <div class="se-subs1 scroll-item3" id="last-sub">
-                        <button type="button" class="btn btn-primary">SWE2003</button>
-                        <button type="button" class="btn btn-primary">SWE3003</button>
-                        <button type="button" class="btn btn-primary">SWE4003</button>
-                        <button type="button" class="btn btn-primary">SWE4004</button>
-                        <button type="button" class="btn btn-primary">SWE4005</button>                      
+                        <button type="button" onclick="swe2004()" class="btn btn-primary">SWE2004</button>     
+                        <button type="button" onclick="swe4001()" class="btn btn-primary">SWE4001</button>
+                        <button type="button" onclick="swe4002()" class="btn btn-primary">SWE4002</button>
+                        <button type="button" onclick="swe4003()" class="btn btn-primary">SWE4003</button>
+                        <button type="button" onclick="swe4004()" class="btn btn-primary">SWE4004</button>                        
                     </div>
                 </div>
                 <div class="labels">
@@ -98,38 +96,38 @@
                     <p class="label" onclick="label2()"></p>
                 </div>
             </aside>
-            <aside class="subjects1" id="scroll-down">
+            <aside class="subjects1">
                 <div class="text">
                     <button>Select Course</button>
                 </div>
                 <div class="slides1">
                     <div class="se-subs2 scroll-item1">
-                        <button type="button" class="btn btn-primary">SWE1002</button>
-                        <button type="button" class="btn btn-primary">SWE2006</button>
-                        <button type="button" class="btn btn-primary">SWE2007</button>
-                        <button type="button" class="btn btn-primary">SWE2008</button>
-                        <button type="button" class="btn btn-primary">SWE3001</button>
-                        <button type="button" class="btn btn-primary">SWE3002</button>
-                        <button type="button" class="btn btn-primary">SWE3003</button>
-                        <button type="button" class="btn btn-primary">SWE2002</button>     
+                        <button type="button" onclick="swe1002()" class="btn btn-primary">SWE1002</button>
+                        <button type="button" onclick="swe2006()" class="btn btn-primary">SWE2006</button>
+                        <button type="button" onclick="swe2007()" class="btn btn-primary">SWE2007</button>
+                        <button type="button" onclick="swe2008()" class="btn btn-primary">SWE2008</button>                                                                                                                
+                        <button type="button" onclick="swe3001()" class="btn btn-primary">SWE3001</button>
+                        <button type="button" onclick="swe3002()" class="btn btn-primary">SWE3002</button>
+                        <button type="button" onclick="swe3003()" class="btn btn-primary">SWE3003</button>
+                        <button type="button" onclick="swe2002()" class="btn btn-primary">SWE3004</button>     
                     </div>
                     <div class="se-subs2 scroll-item3" id="last-sub">
-                        <button type="button" class="btn btn-primary">SWE2001</button>
-                        <button type="button" class="btn btn-primary">SWE2004</button>
-                        <button type="button" class="btn btn-primary">SWE4001</button>
-                        <button type="button" class="btn btn-primary">SWE4002</button>  
-                        <button type="button" class="btn btn-primary">SWE4003</button>  
-                        <button type="button" class="btn btn-primary">SWE4004</button>
-                        <button type="button" class="btn btn-primary">SWE4005</button>         
-                        <button type="button" class="btn btn-primary">SWE2003</button>              
+                        <button type="button" onclick="swe2001()" class="btn btn-primary">SWE2001</button>
+                        <button type="button" onclick="swe2004()" class="btn btn-primary">SWE2004</button>      
+                        <button type="button" onclick="swe2003()" class="btn btn-primary">SWE2009</button>    
+                        <button type="button" onclick="swe4001()" class="btn btn-primary">SWE4001</button>
+                        <button type="button" onclick="swe4002()" class="btn btn-primary">SWE4002</button>  
+                        <button type="button" onclick="swe4003()" class="btn btn-primary">SWE4003</button>  
+                        <button type="button" onclick="swe4004()" class="btn btn-primary">SWE4004</button>
+                        <button type="button" onclick="swe4005()" class="btn btn-primary">SWE4005</button>             
                     </div>
                 </div>
                 <div class="arrow">
                     <i class="fa-solid fa-angle-down"></i>
                 </div>
             </aside>
-            <hr class="hr2" style="margin: 20px 30px; color:white">
-            <section class="container">
+            <hr class="hr2" style="margin: 20px 30px; color:white" >
+            <section class="container" id="container">
                 <div class="sub" >
                     <h5><strong style="text-decoration: underline;">NOTE</strong> : Use college email ID to access the PYQs  &nbsp;<i class="fa-solid fa-unlock"></i></h5>
                 </div>
@@ -139,7 +137,7 @@
                 <div class="card">
                     <div class="coco">Course Code</div>
                     <div class="di">
-                        <i class="fa-solid fa-download"></i>
+                          <a target="_blank" href="https://drive.google.com/drive/folders/10JEH4ZWXZCWN9otlpUtAz3v6c3uQCa19?usp=drive_link"><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="coti">Course Title</div>
                 </div>
@@ -149,7 +147,7 @@
                 <div class="card">
                     <div class="coco">Course Code</div>
                     <div class="di">
-                        <i class="fa-solid fa-download"></i>
+                          <a target="_blank" href="https://drive.google.com/drive/folders/10JEH4ZWXZCWN9otlpUtAz3v6c3uQCa19?usp=drive_link"><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="coti">Course Title</div>
                 </div>
@@ -159,7 +157,7 @@
                 <div class="card">
                     <div class="coco">Course Code</div>
                     <div class="di">
-                        <i class="fa-solid fa-download"></i>
+                          <a target="_blank" href="https://drive.google.com/drive/folders/10JEH4ZWXZCWN9otlpUtAz3v6c3uQCa19?usp=drive_link"><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="coti">Course Title</div>
                 </div>
@@ -169,7 +167,7 @@
                 <div class="card">
                     <div class="coco">Course Code</div>
                     <div class="di">
-                        <i class="fa-solid fa-download"></i>
+                          <a target="_blank" href="https://drive.google.com/drive/folders/10JEH4ZWXZCWN9otlpUtAz3v6c3uQCa19?usp=drive_link"><i class="fa-solid fa-download"></i></a>
                     </div>
                     <div class="coti">Course Title</div>
                 </div>
@@ -179,20 +177,21 @@
             <div class="cr">
                 <h5>Developed by V Mahesh </h5>
             </div>
-        <div class="links">
-            <div class="li">
-                <a href="https://www.instagram.com/__mahesh.veesam__293" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <div class="links">
+                <div class="em">
+                    <a href="mailto:mahesh.23mis7302@vitapstudent.ac.in" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="li">
+                    <a href="https://www.linkedin.com/in/mahesh-veesam-52321031a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="in">
+                    <a href="https://www.instagram.com/__mahesh.veesam__293" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
-            <div class="in">
-                <a href="https://www.linkedin.com/in/mahesh-veesam-52321031a" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <div class="em">
-                <a href="mailto:mahesh.23mis7302@vitapstudent.ac.in" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-            </div>
-        </div>
         </footer>
     </div>
     <script src="seniors.js"></script>
+    <script src="../freshers/freshers.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
