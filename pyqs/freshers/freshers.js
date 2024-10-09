@@ -306,7 +306,7 @@ function mat1001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="Calculus";
     }
 }
 function cse1012(){
@@ -366,7 +366,7 @@ function ece1002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="FEEE";
     }
 }
 function eng1001(){
@@ -386,7 +386,7 @@ function eng1001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="English (Ess..)";
     }
 }
 function ece1003(){
@@ -409,7 +409,7 @@ function ece1003(){
         i.innerText="DLM";
     }
 }
-function eng1003(){
+function eng1002(){
     scroll();
     returnScroll();
 
@@ -421,12 +421,12 @@ function eng1003(){
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
-        i.innerText="ENG1003";
+        i.innerText="ENG1002";
     }
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="English (Eff..)";
     }
 }function phy1008(){
     scroll();
@@ -465,7 +465,7 @@ function mat1002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="BEEE";
+        i.innerText="AD&DE";
     }
 }
 function cse2005(){
@@ -505,7 +505,7 @@ function eng2001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="English";
+        i.innerText="English (Prof..)";
     }
 }
 function ece1005(){

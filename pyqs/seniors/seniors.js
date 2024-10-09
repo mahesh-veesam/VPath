@@ -89,7 +89,7 @@ function swe1002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="PSE";
+        i.innerText="PSE ";
     }
 }
 
@@ -111,7 +111,7 @@ function swe2001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="DSA";
+        i.innerText="DSA ";
     }
 }
 function swe2006(){
@@ -132,7 +132,7 @@ function swe2006(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="DBS";
+        i.innerText="DBS ";
     }
 }
 function swe2007(){
@@ -153,7 +153,7 @@ function swe2007(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="OS";
+        i.innerText=" OS ";
     }
 }
 function swe2009(){
@@ -216,7 +216,7 @@ function swe4002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="SWT";
+        i.innerText="SWT ";
     }
 }
 function swe4001(){
@@ -321,7 +321,7 @@ function swe3001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="CN";
+        i.innerText=" CN ";
     }
 }
 function swe3002(){
@@ -468,7 +468,7 @@ function ece2005(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="Signal";
+        i.innerText="Signal..";
     }
 }
 

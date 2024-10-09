@@ -1,3 +1,22 @@
+let width = window.innerWidth
+let mobileScreen = width<800;
+console.log(width)
+
+function size(){
+    if(mobileScreen){
+        let dt = document.querySelector(".dt")
+        dt.innerHTML = "Select Code &nbsp;:"
+    }
+}
+size()
+const scroll = function(){
+    if(mobileScreen){
+        window.location.hash = "sroll-down" ;
+    }
+}
+const returnScroll = function(){
+    window.location.hash = "container";
+}
 function cse2001(){
     
     scroll();
@@ -16,7 +35,7 @@ function cse2001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="DSA";
+        i.innerText="DSA ";
     }
 }
 function cse1005(){
@@ -37,7 +56,7 @@ function cse1005(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="SE";
+        i.innerText=" SE ";
     }
 }
 function cse2007(){
@@ -79,7 +98,7 @@ function cse2008(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="OS";
+        i.innerText=" OS ";
     }
 }
 function cse3002(){
@@ -100,7 +119,7 @@ function cse3002(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="AI";
+        i.innerText=" AI ";
     }
 }
 function cse1006(){
@@ -121,7 +140,7 @@ function cse1006(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="FDA";
+        i.innerText="FDA ";
     }
 }
 function cse1007(){
@@ -184,7 +203,7 @@ function cse3003(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="CN";
+        i.innerText=" CN ";
     }
 }
 function cse3006(){
@@ -226,7 +245,7 @@ function cse3008(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="ML";
+        i.innerText=" ML ";
     }
 }
 function cse1008(){
@@ -247,7 +266,7 @@ function cse1008(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="ToC";
+        i.innerText="ToC ";
     }
 }
 function cse2027(){
@@ -436,7 +455,7 @@ function cse4011(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="IoT";
+        i.innerText="IoT ";
     }
 }
 function cse4047(){
@@ -499,7 +518,7 @@ function cse3001(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="ADP";
+        i.innerText="ADP ";
     }
 }
 function cse2026(){
@@ -541,7 +560,7 @@ function cse4007(){
 
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
-        i.innerText="DIP";
+        i.innerText="DIP ";
     }
 }
 // function cse{
