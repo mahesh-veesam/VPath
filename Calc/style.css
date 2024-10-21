@@ -1,0 +1,502 @@
+.main{
+    margin: 0px;
+    padding-top: 20px ;
+    border-radius: 10px;
+}
+body{
+    background-image: var(--primary-color);
+    height: 100%;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-attachment: fixed;    */
+}
+:root{
+    --primary-color:linear-gradient(to bottom, rgb(3, 3, 14),rgb(3, 3, 26),rgb(3, 3, 34),black);
+    --primary-color1:linear-gradient(to bottom right, rgb(3, 3, 14),rgb(3, 3, 26),rgb(3, 3, 34),black);
+    --secondary-color1:linear-gradient(to right ,rgba(10, 10, 19, 0.959),rgba(8, 13, 53, 0.473),rgba(1, 25, 78, 0.521));
+    --secondary-color:linear-gradient(to top right ,rgb(9, 9, 59),rgb(116, 106, 206));
+    --text-color:linear-gradient(to right top,#0066ff,aqua);
+    --instagram:linear-gradient(to right top,#f9ce34,#ee2a7b,#6228d7);
+    /* --color-one:linear-gradient(to right, aqua,white,wheat,rgb(177, 143, 143)); */
+    --color-two:linear-gradient(to top right,blue,aqua,rgb(3, 3, 36));
+    --color-one:linear-gradient(to top right,rgb(169, 3, 175) ,rgb(139, 226, 0) );
+    --text-color1:linear-gradient(#0469ff,aqua);
+}
+.light-theme{
+    --primary-color:linear-gradient(to bottom,rgb(214, 214, 255),rgb(91, 109, 190),rgb(3, 3, 34),black);
+    --secondary-color:linear-gradient(to right ,rgba(10, 10, 19, 0.959),rgba(8, 13, 53, 0.473),rgba(1, 25, 78, 0.521));
+    --secondary-color-rev:linear-gradient(to right,rgba(1, 25, 78, 0.521),rgba(8, 13, 53, 0.473),rgba(10, 10, 19, 0.959));
+    --text-color:linear-gradient(white,blue);
+}
+.head{
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:var(--secondary-color1);
+    margin: 25px 30px 50px 30px;
+    height: 60px;
+    border-radius: 10px;
+}
+@media(min-width : 900px){
+    .head{
+        height: 90px;
+    }
+}
+.pd{
+    background: var(--secondary-color);
+    padding: 8%;
+    margin: 0 7.3%;
+    border-radius: 10px;
+    padding-top: 2.5rem;
+}
+.title{
+    font-family:"gentium plus" ;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    background-image: var(--color-two);
+    background-clip: text;
+    color: transparent;
+}
+.cb{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+}
+.cb i{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.house i{
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.cb i:hover, .house i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#check{
+    display: none ;
+}
+h2{
+    font-family:"gentium plus";
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin: 3rem 2rem;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 5px 20px rgb(63, 63, 63);
+    color: white;
+}
+@media (min-width: 395px){
+    h2{
+        font-size: 21px;
+    }
+}
+.head-intro{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.image img{
+    width: 400px;
+
+}
+.text{
+    /* background-color: antiquewhite; */
+    margin-left: 50px;
+    padding: 4% 3% 0 10%;
+    color: white;
+}
+.intro{
+    /* background-color: magenta; */
+    margin: 5% 0;
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-family: "inter";
+}
+.intro1{
+    /* padding-top: 20px ; */
+    text-align: center;
+}
+.intro2{
+    padding-top: 5% ;
+    font-size: 20px;
+}
+.mode{
+    margin: auto 20%;
+    display: flex;
+    justify-content: space-around;
+    width: auto 0;
+}
+.mbtn p{
+    cursor: pointer;
+    font-size: 120%;
+    font-weight: 300;
+    font-family: "gentium plus";
+}
+p:hover{
+    transform: scale(1.2);
+    transition: 0.6s;
+}
+.mbtn{
+    height: 200px;
+    width: 25%;
+    /* padding: 10px 20px ; */
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mbtn img{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-45deg);
+}
+.rotation{
+    animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.dm{
+    padding: 10px;
+    text-align: center;
+    margin: 50px auto ;
+    width: 260px;
+    background-image: var(--color-one);
+    background-clip: text;
+    color: transparent;
+    font-family: "gentium plus";
+    font-size: 36px;
+    font-weight: 600;
+}
+.mbtn img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transform: rotate(0deg);
+}
+.display{
+    animation: movein 0.6s linear;
+}
+@keyframes movein {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.container{
+    position: relative;
+    width: 70%;
+    width: auto 0;
+    padding: 50px 0;
+    background-color: #ffffff09;
+    border: 2px solid white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.gpa{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 4% 0%; 
+    width: 6rem;
+    color: white;
+}
+h3{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 2%; 
+    margin-top: 2%;
+    width: 12rem;
+    color: white;
+    border:2px solid white;
+    border-radius: 100px 0;
+    height: 26px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#course{
+    border: none;
+}
+select{
+    position: relative;
+    text-align: center;
+    font-size: 105%;
+    font-weight: 500;
+    margin: 2.5% 0;
+    width: 12rem;
+    height: 3.2rem;
+    border-radius: 20px;
+    appearance: none;
+    border: 2px solid rgb(1, 3, 22);
+    cursor: pointer;
+}
+select:hover{
+    box-shadow: inset -5px -5px 20px rgb(189, 186, 206);
+    background-color: rgb(110, 87, 201);
+    color: white;
+    border: 2px solid white;
+}
+option{
+    font-weight: 500;
+    border-radius: 50px;
+}
+.btns{
+    color: white;
+    width: 10rem;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 5px;
+    padding-bottom: 40px;
+}
+.btn:hover{
+    background-color: white;
+    color: green;
+}
+#add{
+    background-image: var(--primary-color1);
+    color: #ffffff;
+}
+#calc{
+    background-image: var(--secondary-color);
+}
+#reset{
+    background-image: var(--primary-color1);
+}
+.results{
+    border: 2px solid white; 
+    background-image: var(--primary-color1);
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 80px;
+    padding: 2% 10% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+.results h5{
+    color: white;;
+}
+@media (max-width:994px) {
+    .head-intro{
+        height: 500px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-intro .image img{
+        width: 280px;
+        height: 250px;
+    }
+    .text{
+        width: 95%;
+        margin: 0;
+        padding: 0 5%;
+    }
+    .intro{
+        font-size: 16px;
+    }
+    .container{
+        margin: auto;
+        width: 95%;
+        border: none;
+        background-color: transparent;
+    }
+    .gpa{
+        justify-content: space-between; 
+    }
+    .gpa h4{
+        font-size: 90%;
+        width: 20%;
+        font-weight: 600;
+    }
+    .gpa h3{
+        margin-bottom: 15px;
+        font-family: "gentium plus";
+        font-size: 90%;
+        padding: 12px 8px;
+    }
+    .mode{
+        margin: 2% 8%;
+        justify-content: space-evenly;
+    }
+    .mbtn{
+        width: 50%;
+        padding:0;
+    }
+    .mbtn p{
+        cursor: pointer;
+        font-size: 100%;
+        font-weight: 300;
+        font-family: "gentium plus";
+    }
+    .mbtn img{
+        width: 100px;
+        height: 100px;
+    }
+    select{
+        margin: 5% 0;
+        font-size: 90%;
+        font-weight: 600;
+        width: 37%;
+        height: 2.6rem;
+        position: relative;
+    }
+    .btns{
+        width:30%;
+        font-size: 15px;
+        height: 36px;
+        padding: 5px 5px;
+        padding-bottom: 10px;
+        font-weight: 400;
+        border: 1px solid white;
+    }
+    .results{
+        border: 1px solid white;
+        margin-top: 60px;
+        width: 95%;
+        padding: 10px 2px;
+        padding-bottom: 2px ;
+        justify-content: space-around;
+    }
+    .results h5{
+        /* margin: 0 20px; */
+        font-size: 100%;
+    }
+    .dm{
+        margin: 0 auto;
+    }
+}
+@media (min-width:500px) and (max-width:994px) {
+    select{
+        position: relative;
+        text-align: center;
+        font-size: 105%;
+        font-weight: 500;
+        margin: 2.5% 0;
+        width: 12rem;
+        height: 3.2rem;
+        border-radius: 20px;
+        appearance: none;
+        border: 2px solid rgb(1, 3, 22);
+        cursor: pointer;
+    }
+    h4{
+        font-size: 30px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+.footer{
+    position: relative;
+    margin-top: 30px;
+    color: white;
+    height:150px;
+    max-width: 100%;
+    background-image: var(--color-three);
+}
+.cr{
+    text-align: center;
+    padding-top: 50px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.em a i{
+    margin: 10px;
+    opacity: 0.5;
+    color: white;
+    font-size: 25px;
+}
+.in a i{
+    margin: 10px;
+    opacity: 0.5;
+    color: white;
+    font-size: 23px;
+}
+.li a i{
+    margin: 10px;
+    opacity: 0.5;
+    color: white;
+    font-size: 22px;
+}
+.em a i:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    opacity: 1;  
+    color: #0092b7;
+}
+.in a i:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    opacity: 1;
+    background-image: var(--instagram);
+    background-clip: text;
+    color: transparent;  
+}
+.li a i:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    opacity: 1;
+    color: #0075b7;
+}
