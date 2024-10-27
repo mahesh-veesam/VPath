@@ -103,7 +103,7 @@ mbtn2.addEventListener("click",()=>{
 
 function displayCalc1(){
     scroll()
-    // returnScroll()
+    returnScroll()
     calc1.style.display = "flex"
     calc1.style.transition = "1s"
     calc1.classList.add("display")
