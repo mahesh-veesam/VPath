@@ -102,6 +102,8 @@ mbtn2.addEventListener("click",()=>{
 })
 
 function displayCalc1(){
+    scroll()
+    // returnScroll()
     calc1.style.display = "flex"
     calc1.style.transition = "1s"
     calc1.classList.add("display")
@@ -110,6 +112,19 @@ function displayCalc1(){
 function displayCalc2(){
     calc1.style.display = "none"
 }
+
+const mobileScreen = function(){
+    return window.matchMedia("(max-width : 800px)").matches;
+}
+const scroll = function(){
+    if(mobileScreen()){
+        window.location.hash = "mode";
+    }
+}
+const returnScroll = function(){
+    window.location.hash = "container";
+}
+
 
 
 // if ('serviceWorker' in navigator) {
