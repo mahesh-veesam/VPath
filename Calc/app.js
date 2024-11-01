@@ -98,7 +98,7 @@ mbtn1.addEventListener("click",()=>{
 mbtn2.addEventListener("click",()=>{
     img1.classList.remove("rotation")
     img2.classList.add("rotation")
-    displayCalc2()
+    displayCalc2()  
 })
 
 function displayCalc1(){
@@ -117,9 +117,7 @@ const mobileScreen = function(){
     return window.matchMedia("(max-width : 800px)").matches;
 }
 const scroll = function(){
-    if(mobileScreen()){
-        window.location.hash = "mode";
-    }
+    window.location.hash = "mode";
 }
 const returnScroll = function(){
     window.location.hash = "container";
