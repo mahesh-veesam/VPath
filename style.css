@@ -346,7 +346,7 @@ ul li{
     font-weight: 400;
 } 
 
-@media (max-width:994px) {
+@media (max-width:910px) {
     .head-intro{
         height: 550px;
         flex-direction: column-reverse;

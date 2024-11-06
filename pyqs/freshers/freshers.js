@@ -2,8 +2,12 @@ let btns = document.querySelectorAll(".subs .btn")
 btns.forEach(btn => {
     btn.addEventListener("click",function() {
         
-        btns.forEach(btn => btn.classList.remove("btn-clicked"));
+        btns.forEach(btn =>
+             btn.classList.remove("btn-clicked")
+            // btn.style.background = "none"
+        );
         this.classList.add("btn-clicked");
+        // this.style.background = "#0f59c7"
     });
 });
 let btns2 = document.querySelectorAll(".se-subs1 .btn")
@@ -77,7 +81,7 @@ function chy1008(){
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
-        i.innerText="CHY1002";
+        i.innerText="CHY1008";
     }
 
     let name = document.querySelectorAll(".coti");

@@ -14,7 +14,7 @@ body{
 :root{
     --primary-color:linear-gradient(to bottom, rgb(3, 3, 14),rgb(3, 3, 26),rgb(3, 3, 34),black);
     --primary-color1:linear-gradient(to bottom right, rgb(3, 3, 14),rgb(3, 3, 26),rgb(3, 3, 34),black);
-    --secondary-color1:linear-gradient(to right ,rgba(10, 10, 19, 0.959),rgba(8, 13, 53, 0.473),rgba(1, 25, 78, 0.521));
+    --secondary-color1:linear-gradient(to right ,rgba(13, 13, 29, 0.959),rgba(8, 13, 53, 0.473),rgba(1, 25, 78, 0.521));
     --secondary-color:linear-gradient(to top right ,rgb(9, 9, 59),rgb(116, 106, 206));
     --text-color:linear-gradient(to right top,#0066ff,aqua);
     --instagram:linear-gradient(to right top,#f9ce34,#ee2a7b,#6228d7);
