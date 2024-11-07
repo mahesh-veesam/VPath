@@ -630,6 +630,9 @@ input{
     text-align: center;
     padding-top: 50px;
 }
+.cr h5{
+    font-size: 18px;
+}
 .links{
     display: flex;
     justify-content: center;
@@ -652,7 +655,7 @@ input{
     margin: 10px;
     opacity: 0.5;
     color: white;
-    font-size: 22px;
+    font-size: 23px;
 }
 .em a i:hover{
     transform: scale(1.3);
