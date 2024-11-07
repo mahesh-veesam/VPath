@@ -223,7 +223,7 @@ p:hover{
     display: flex;
     justify-content: space-evenly;
 }
-h4{
+.gpa h4{
     position: relative;
     text-align: center;
     display: flex;
@@ -255,7 +255,7 @@ h3{
 #course{
     border: none;
 }
-select{
+.gpa select{
     position: relative;
     text-align: center;
     font-size: 105%;
@@ -268,13 +268,13 @@ select{
     border: 2px solid rgb(1, 3, 22);
     cursor: pointer;
 }
-select:hover{
+.gpa select:hover{
     box-shadow: inset -5px -5px 20px rgb(189, 186, 206);
     background-color: rgb(110, 87, 201);
     color: white;
     border: 2px solid white;
 }
-option{
+.gpa option{
     font-weight: 500;
     border-radius: 50px;
 }
@@ -303,7 +303,7 @@ option{
 #reset{
     background-image: var(--primary-color1);
 }
-.results{
+.results,.results_c{
     border: 2px solid white; 
     background-image: var(--primary-color1);
     border-radius: 20px;
@@ -315,9 +315,129 @@ option{
     justify-content: space-around;
     display: none;
 }
-.results h5{
-    color: white;;
+.results h5,.results_c{
+    color: white;
 }
+
+
+
+
+
+
+
+
+
+.info{
+    text-align: center;
+    color: white;
+    font-size: 1.7vw;
+    /* background-color: #0066ff; */
+    margin-bottom: 2rem;
+}
+.inputs{
+    /* background-color: #ee2a7b; */
+    color: white;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vw;
+    align-items: baseline;
+    font-size: 1.5vw; 
+}
+#input_last{
+    margin-bottom: 1vw;
+}
+/* label{
+       
+} */
+input{
+    width: 25vw;
+    height: 3vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding:0 1vw;
+    color: white;
+}
+/* .cgpa{
+
+}
+.credits_c{
+
+}   
+.grade_c{
+
+} */
+.cgpa{
+    width: 100%;
+    /* background-color: #0066ff; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.cgpa h4{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw ;
+    font-weight: 400;
+    margin: 0.8vw 0;
+    margin-right: 20px; 
+    width: 12vw;
+    color: white;
+}
+.cgpa select{
+    position: relative;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 0.5vw 0;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 20px;
+    appearance: none;
+    border: 2px solid rgb(1, 3, 22);
+    cursor: pointer;
+    margin-right: 0.5vw;
+}
+.cgpa select:hover{
+    box-shadow: inset -5px -5px 20px rgb(189, 186, 206);
+    background-color: rgb(110, 87, 201);
+    color: white;
+    border: 2px solid white;
+}
+.cgpa option{
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:994px) {
     .head-intro{
         height: 500px;
@@ -375,7 +495,7 @@ option{
         width: 100px;
         height: 100px;
     }
-    select{
+    .gpa select{
         margin: 5% 0;
         font-size: 90%;
         font-weight: 600;
@@ -392,7 +512,7 @@ option{
         font-weight: 400;
         border: 1px solid white;
     }
-    .results{
+    .results, .results_c{
         border: 1px solid white;
         margin-top: 60px;
         width: 95%;
@@ -400,15 +520,84 @@ option{
         padding-bottom: 2px ;
         justify-content: space-around;
     }
-    .results h5{
+    .results h5,.results_c h5{
         font-size: 100%;
     }
     .dm{
         margin: 0 auto;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .info{
+        font-size: 3.6vw;
+    }
+    .inputs{
+        width: 85vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.7vw;
+        align-items: baseline;
+        font-size: 3.4vw; 
+    }
+    #input_last{
+        margin-bottom: 3vw;
+    }
+    input{
+        width: 58vw;
+        height: 8vw;
+        border: 2px solid white;
+        border-radius: 12px;
+        background-color: transparent;
+        padding:0 3vw;
+        color: white;
+        margin: 0.5vw 0;
+    }
+
+
+
+
+    #cgpa_btns{
+        width: 100%;
+    }
+    .cgpa{
+        width: 85vw;
+        margin: 0 auto;
+        /* background-color: #0066ff; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cgpa h4{
+        font-size: 3.4vw ;
+        font-weight: 400;
+        margin: 1vw 0;
+        margin-right: 8vw; 
+        width: 20vw;    
+    }
+    .cgpa select{
+        font-size: 3vw;
+        font-weight: 500;
+        margin: 1vw 0;
+        width: 32vw;
+        height: 9vw;
+    }
 }
 @media (min-width:500px) and (max-width:994px) {
-    select{
+    .gpa select{
         position: relative;
         text-align: center;
         font-size: 105%;
@@ -485,3 +674,41 @@ option{
     opacity: 1;
     color: #0075b7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

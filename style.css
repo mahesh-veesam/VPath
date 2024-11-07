@@ -21,7 +21,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    box-shadow: 4px 0px 10px rgb(92, 100, 124);
+    box-shadow: 0px 0px 3px rgb(92, 100, 124);
     background-color: rgb(3, 3, 20);
 }
 .head #vpath{
@@ -38,7 +38,7 @@ body{
     mix-blend-mode:lighten;
 }
 .space{
-    height: 140px;
+    height: 100px;
 }
 /* .aside{
     margin-top: 100px;
@@ -90,13 +90,16 @@ ul li{
     font-size: 60px;
     font-weight: 400;
 } */
+ol,ul{
+    padding-left: 7%;
+    padding-right: 2%;
+}
 .section{
-    height: 200px;
-    width: 40%;
-    min-width: 450px;
-    margin-left: 10%;
+    width: 90%;
+    margin: 0 auto;
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -107,9 +110,12 @@ ul li{
     margin: 10px 0px 5px 0px;
     background-image: var(--secondary-color);
     height: 150px;
-    width: 160px;
+    width: 180px;
     border-radius: 20px;
     text-align: center;
+}
+#boxc{
+    min-width: 300px
 }
 .section a:hover{
     background-image: var(--text-color);    
@@ -184,6 +190,10 @@ ul li{
     opacity: 1;
     color: #0075b7;
 }
+#boxc{
+    display:none;
+    width: 90%;
+}
 @media(max-width:600px) {
     .head{
         height: 90px;
@@ -197,7 +207,6 @@ ul li{
         top: 10px;
         height: 45px;
     }
-        
     .aside{
         margin-top: 100px;
         height: auto;
@@ -235,14 +244,12 @@ ul li{
         font-size: 60px;
         font-weight: 400;
     }
-        
     .section{
-        height: 200px;
-        width: 90% ;
+        width: 85% ;
         min-width: 200px;
-        margin: 0;
         margin-left: 5%;
         margin-top: 20px;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -254,10 +261,14 @@ ul li{
         position: relative;
         margin: 30px 0px 5px 0px;
         background-image: var(--secondary-color);
-        height: 120px;
-        width: 140px;
+        height: 33vw;
+        width: 43%;
         border-radius: 20px;
         text-align: center;
+    }
+    #boxc{
+        display:none;
+        width: 90%;
     }
     .section a:hover{
         background-image: var(--text-color);
@@ -266,23 +277,17 @@ ul li{
     }
     .box p{
         margin: 0;
-        font-size: 16px;
+        font-size: 4vw;
         font-weight: 600;
         color: rgb(142, 147, 151);
     }
     .section a .box i{
         color: rgb(212, 198, 212);
         text-align: center;
-        margin: 10px;
-        font-size:40px;
+        margin: 12px;
+        font-size: 11vw;
     }
 }
-
-
-
-
-
-
 .head-intro{
     width: 95%;
     margin: 0 auto;
@@ -307,7 +312,7 @@ ul li{
     font-family: "inter";
 }
 .intro1{
-    margin-left: 6%;
+    margin-left: 7%;
 }
 .intro2{
     padding-top: 5% ;

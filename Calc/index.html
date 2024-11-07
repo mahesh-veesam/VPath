@@ -57,7 +57,7 @@
         </div>
         <hr style="margin: 20px 30px; color:white" >
         <div class="dm">GPA Calculator</div>
-        <div class="container">
+        <div class="container" id="gpa-box" style="display: none;">
             <div class="gpa">
                 <h3 style="width: 6rem;" id="course" style="border: none;"></h3>
                 <h3 >Select Credits&nbsp;</h3>
@@ -67,10 +67,13 @@
                 <h4>Course 1</h4>
                 <select name="credits" class="credits" id="c1">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g1">
                     <option value="">Grade Points</option>
@@ -87,10 +90,13 @@
                 <h4>Course 2</h4>
                 <select name="credits" class="credits" id="c2">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g2">
                     <option value="">Grade Points</option>
@@ -107,10 +113,13 @@
                 <h4>Course 3</h4>
                 <select name="credits" class="credits" id="c3">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g3">
                     <option value="">Grade Points</option>
@@ -127,10 +136,13 @@
                 <h4>Course 4</h4>
                 <select name="credits" class="credits" id="c4">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g4">
                     <option value="">Grade Points</option>
@@ -147,10 +159,13 @@
                 <h4>Course 5</h4>
                 <select name="credits" class="credits" id="c5">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g5">
                     <option value="">Grade Points</option>
@@ -167,10 +182,13 @@
                 <h4>Course 6</h4>
                 <select name="credits" class="credits" id="c6">
                     <option value="">Credits</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="8">8</option>
                 </select>
                 <select name="grade" class="grade" id="g6">
                     <option value="">Grade Points</option>
@@ -191,6 +209,33 @@
             <div class="results">
                 <h5 id="ng"></h5>
                 <h5 id="nc"></h5>
+            </div>
+        </div>
+        <div class="container" id="cgpa-box">
+            <div class="info">For Credits details : <br>   VTOP --> Examination --> Grade History</div>
+            <div class="inputs">
+                <label for="cgpa">CGPA</label>      
+                <input type="number" id="cgpa" min="0" max="10" placeholder="CGPA till last sem">
+            </div>
+            <div class="inputs">
+                <label for="credits">Credits</label>
+                <input type="number" id="credits" min="0" max="200" placeholder="Credits till last sem">
+            </div>
+            <div class="inputs" id="input_last">
+                <label for="courses">Courses</label>
+                <input type="number" id="courses" min="0" max="10" placeholder="No. of Courses in this sem">
+            </div>
+            <div class="cgpa_btns" id="cgpa_btns">
+
+            </div>
+            <div class="gpa buttons cgpa_btn">
+                <button class="btns" style="display: none;" id="add">Add Course</button>
+                <button class="btns" id="calc">Calculate</button>
+                <button class="btns"  style="display: none;" id="reset">Reset</button>
+            </div>
+            <div class="results_c">
+                <h5 id="ng_c"></h5>
+                <h5 id="nc_c"></h5>
             </div>
         </div>
         <footer class="footer" id="footer">
