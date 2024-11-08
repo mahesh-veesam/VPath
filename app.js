@@ -28,7 +28,51 @@ btn2.addEventListener("mouseout",function(){
     }
 })
 
+let share = document.querySelector(".share")
+let sharing = document.querySelector(".sharing")
+let hide= document.querySelectorAll(".other")
+sharing.addEventListener("mouseover",open)
+sharing.addEventListener("mouseout",close)
 
+function open(){
+    hide.forEach(e=>{
+        e.classList.remove("other")
+    })
+    sharing.classList.add("scale")
+}
+
+function close(){
+    hide.forEach(e=>{
+        e.classList.add("other")
+    })
+    sharing.classList.remove("scale")
+}
+
+let wa = document.querySelector(".wa")
+let ig = document.querySelector(".ig")
+let copy = document.querySelector(".copy")
+
+
+wa.addEventListener("click",openwa)
+ig.addEventListener("click",openig)
+copy.addEventListener("click",copyurl)
+
+
+function openwa(){
+    window.open("https://wa.me?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
+}
+
+function openig(){
+    window.open("https://instagram.com/direct/new/?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
+}
+
+function copyurl(){
+    navigator.clipboard.writeText("https://vpath.netlify.app/")
+    copy.style.transform = "scale(1.1)"
+    setInterval(() => {
+        copy.style.transform = "scale(1)"
+    }, 500);
+}
 
 
 

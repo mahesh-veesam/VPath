@@ -197,6 +197,56 @@ ol,ul{
     display:none;
     width: 90%;
 }
+.sharing .wa:hover i{
+    color:green ;
+}
+.sharing .ig:hover i{
+    background-image: var(--instagram);
+    background-clip: text;
+    color: transparent; 
+}
+.sharing .copy:hover i{
+    background-image: var(--text-color);
+    background-clip: text;
+    color: transparent; 
+}
+.sharing{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-image: var(--secondary-color);
+    border-radius: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.share_icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #87adc4; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.share_icons:hover{
+    background-color: #12041acb;
+}
+.share_icons:hover i{
+    transform: scale(1.1);
+}
+.other{
+    display: none;
+}
+.scale{
+    padding: 8px;
+    transform: scale(1.1);
+}
 @media(max-width:600px) {
     .head{
         height: 90px;
@@ -217,7 +267,7 @@ ol,ul{
         padding: 16px 10px;
         margin: 12px;
     }
-    .aside ul{    
+    .aside ul{      
         list-style-type: none;
         margin-top: 20px;
         line-height: 30px;
@@ -378,6 +428,43 @@ ul li{
     }
     .text{
         padding: 0;
+    }
+    .sharing{
+        position: fixed;
+        right: 6vw;
+        bottom: 6vw;
+        background-color:#87adc4;
+        border-radius: 100px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .share_icons{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #87adc4;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        font-size: 5vw;
+        cursor: pointer;
+        color: white;
+    }
+    .share_icons:hover{
+        background-color: #16072779;
+    }
+    .share_icons:hover i{
+        transform: scale(1.2);
+    }
+    .other{
+        display: none;
+    }
+    .scale{
+        padding: 1.5%;
+        transform: scale(1.1);
     }
 }
 
