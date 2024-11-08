@@ -34,11 +34,21 @@ sharing.addEventListener("mouseover",open)
 sharing.addEventListener("mouseout",close)
 
 function open(){
-    hide.forEach(e=>{
-        e.classList.remove("other")
-    })
-    sharing.classList.add("scale")
+    if(window.matchMedia("(min-width : 800px)").matches){
+        hide.forEach(e=>{
+            e.classList.remove("other")
+        })
+        sharing.classList.add("scale")
+    }
 }
+share.addEventListener("click",()=>{
+    if(window.matchMedia("(max-width : 800px)").matches){
+        hide.forEach(e=>{
+            e.classList.toggle("other")
+        })
+        sharing.classList.toggle("scale")   
+    }
+})
 
 function close(){
     hide.forEach(e=>{
