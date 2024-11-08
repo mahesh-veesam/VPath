@@ -27,7 +27,6 @@ btn2.addEventListener("mouseout",function(){
         btn.style.fontWeight = "600"
     }
 })
-
 let share = document.querySelector(".share")
 let sharing = document.querySelector(".sharing")
 let hide= document.querySelectorAll(".other")
@@ -48,6 +47,8 @@ function close(){
     sharing.classList.remove("scale")
 }
 
+
+
 let wa = document.querySelector(".wa")
 let ig = document.querySelector(".ig")
 let copy = document.querySelector(".copy")
@@ -59,11 +60,13 @@ copy.addEventListener("click",copyurl)
 
 
 function openwa(){
-    window.open("https://wa.me?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
+    window.location.href = "https://wa.me?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/"
+    // window.open("https://wa.me?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
 }
 
 function openig(){
-    window.open("https://instagram.com/direct/new/?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
+    window.location.href = "https://instagram.com/direct/new/?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/"
+    // window.open("https://instagram.com/direct/new/?text=If%20you%20want%20to%20access%20previous%20question%20papers%20for%20your%20exams,%20you%20can%20visit%20vpath.%20Check%20it%20out%20here!%20%0A%0Ahttps://vpath.netlify.app/","_blank");
 }
 
 function copyurl(){
