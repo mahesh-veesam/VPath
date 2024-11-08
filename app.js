@@ -27,7 +27,7 @@ btn2.addEventListener("mouseout",function(){
         btn.style.fontWeight = "600"
     }
 })
-let share = document.querySelector(".share")
+let share = document.querySelector(".share i")
 let sharing = document.querySelector(".sharing")
 let hide= document.querySelectorAll(".other")
 sharing.addEventListener("mouseover",open)
@@ -51,10 +51,12 @@ share.addEventListener("click",()=>{
 })
 
 function close(){
-    hide.forEach(e=>{
-        e.classList.add("other")
-    })
-    sharing.classList.remove("scale")
+    if(window.matchMedia("(min-width : 800px)").matches){
+        hide.forEach(e=>{
+            e.classList.add("other")
+        })
+        sharing.classList.remove("scale")
+    }
 }
 
 
