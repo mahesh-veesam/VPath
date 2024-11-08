@@ -27,36 +27,33 @@ btn2.addEventListener("mouseout",function(){
         btn.style.fontWeight = "600"
     }
 })
-let share = document.querySelector(".share i")
+let share = document.querySelector(".share")
 let sharing = document.querySelector(".sharing")
 let hide= document.querySelectorAll(".other")
 sharing.addEventListener("mouseover",open)
 sharing.addEventListener("mouseout",close)
 
 function open(){
-    if(window.matchMedia("(min-width : 800px)").matches){
-        hide.forEach(e=>{
-            e.classList.remove("other")
-        })
-        sharing.classList.add("scale")
-    }
+    hide.forEach(e=>{
+        e.classList.remove("other")
+    })
+    sharing.classList.add("scale")
 }
-share.addEventListener("click",()=>{
-    if(window.matchMedia("(max-width : 800px)").matches){
-        hide.forEach(e=>{
-            e.classList.toggle("other")
-        })
-        sharing.classList.toggle("scale")   
-    }
-})
+// share.addEventListener("click",()=>{
+//     if(window.matchMedia("(max-width : 800px)").matches){
+//         hide.forEach(e=>{
+//             e.classList.toggle("other")
+//         })
+//         sharing.classList.toggle("scale")
+//         share.style.backgroundColor = "none"
+//     }
+// })
 
 function close(){
-    if(window.matchMedia("(min-width : 800px)").matches){
-        hide.forEach(e=>{
-            e.classList.add("other")
-        })
-        sharing.classList.remove("scale")
-    }
+    hide.forEach(e=>{
+        e.classList.add("other")
+    })
+    sharing.classList.remove("scale")
 }
 
 
