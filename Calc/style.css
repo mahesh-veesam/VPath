@@ -6,6 +6,7 @@
 body{
     background-image: var(--primary-color);
     height: 100%;
+    font-family: inter;
     /* background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
@@ -18,7 +19,7 @@ body{
     --secondary-color:linear-gradient(to top right ,rgb(9, 9, 59),rgb(116, 106, 206));
     --text-color:linear-gradient(to right top,#0066ff,aqua);
     --instagram:linear-gradient(to right top,#f9ce34,#ee2a7b,#6228d7);
-    /* --color-one:linear-gradient(to right, aqua,white,wheat,rgb(177, 143, 143)); */
+    --intro-one:linear-gradient(to right,rgb(248, 222, 173), rgb(228, 221, 188),rgb(221, 247, 178));
     --color-two:linear-gradient(to top right,blue,aqua,rgb(3, 3, 36));
     --color-one:linear-gradient(to top right,rgb(169, 3, 175) ,rgb(139, 226, 0) );
     --text-color1:linear-gradient(#0469ff,aqua);
@@ -125,6 +126,12 @@ h2{
     font-family: "inter";
 }
 .intro1{
+    background:var(--intro-one);
+    background-clip: text;
+    color: transparent;
+    font-family: "gentium plus";
+    font-size: 32px;
+    font-weight: 500;    
     text-align: center;
 }
 .intro2{
@@ -179,13 +186,13 @@ p:hover{
     padding: 10px;
     text-align: center;
     margin: 50px auto ;
-    width: 260px;
-    background-image: var(--color-one);
+    width: 300px;
+    background-image: var(--intro-one);
     background-clip: text;
     color: transparent;
     font-family: "gentium plus";
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
 }
 .mbtn img:hover{
     cursor: pointer;
@@ -230,7 +237,7 @@ p:hover{
     align-items: center;
     font-size: 22px;
     font-weight: 400;
-    margin: 4% 0%; 
+    margin: 2.8% 0%; 
     width: 6rem;
     color: white;
 }
@@ -260,7 +267,7 @@ h3{
     text-align: center;
     font-size: 105%;
     font-weight: 500;
-    margin: 2.5% 0;
+    margin: 1% 0;
     width: 12rem;
     height: 3.2rem;
     border-radius: 20px;
@@ -330,12 +337,10 @@ h3{
 .info{
     text-align: center;
     color: white;
-    font-size: 1.7vw;
-    /* background-color: #0066ff; */
+    font-size: 1.8vw;
     margin-bottom: 2rem;
 }
 .inputs{
-    /* background-color: #ee2a7b; */
     color: white;
     width: 40vw;
     display: flex;
@@ -345,11 +350,8 @@ h3{
     font-size: 1.5vw; 
 }
 #input_last{
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
 }
-/* label{
-       
-} */
 input{
     width: 25vw;
     height: 3vw;
@@ -457,6 +459,9 @@ input{
     .intro{
         font-size: 16px;
     }
+    .intro1{
+        font-size: 26px;
+    }
     .container{
         margin: auto;
         width: 95%;
@@ -544,7 +549,7 @@ input{
 
 
     .info{
-        font-size: 3.6vw;
+        font-size: 4vw;
     }
     .inputs{
         width: 85vw;
@@ -552,7 +557,7 @@ input{
         justify-content: space-between;
         padding: 0.7vw;
         align-items: baseline;
-        font-size: 3.4vw; 
+        font-size: 4vw; 
     }
     #input_last{
         margin-bottom: 3vw;
@@ -577,23 +582,26 @@ input{
     .cgpa{
         width: 85vw;
         margin: 0 auto;
-        /* background-color: #0066ff; */
         display: flex;
         justify-content: space-evenly;
     }
     .cgpa h4{
-        font-size: 3.4vw ;
+        font-size: 4vw ;
         font-weight: 400;
         margin: 1vw 0;
         margin-right: 8vw; 
         width: 20vw;    
     }
     .cgpa select{
-        font-size: 3vw;
-        font-weight: 500;
+        font-size: 3.3vw;
+        font-weight: 610;
         margin: 1vw 0;
         width: 32vw;
         height: 9vw;
+    }
+    .cgpa_btn{
+        display: flex;
+        justify-content: center;
     }
 }
 @media (min-width:500px) and (max-width:994px) {

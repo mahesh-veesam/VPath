@@ -115,7 +115,7 @@ ol,ul{
     text-align: center;
 }
 #boxc{
-    min-width: 300px
+    min-width: 275px;
 }
 .section a:hover{
     background-image: var(--text-color);    
@@ -192,10 +192,6 @@ ol,ul{
     transition: 0.5s;
     opacity: 1;
     color: #0075b7;
-}
-#boxc{
-    display:none;
-    width: 90%;
 }
 .sharing .wa:hover i{
     color:green ;
@@ -320,8 +316,7 @@ ol,ul{
         text-align: center;
     }
     #boxc{
-        display:none;
-        width: 90%;
+        width: 92%;
     }
     .section a:hover{
         background-image: var(--text-color);

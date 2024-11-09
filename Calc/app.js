@@ -7,6 +7,8 @@ btn2.addEventListener("click",addCourse)
 let btn3 =document.querySelector("#reset")
 btn3.addEventListener("click",reset);
 
+let dm = document.querySelector(".dm")
+
 let c = 6
 function addCourse(){
     console.log("ok")
@@ -99,12 +101,13 @@ mbtn1.addEventListener("click",()=>{
     img1.classList.add("rotation")
     img2.classList.remove("rotation")
     displayCalc1()
-
+    dm.innerHTML = "GPA Calculator"
 })
 mbtn2.addEventListener("click",()=>{
     img1.classList.remove("rotation")
     img2.classList.add("rotation")
     displayCalc2()  
+    dm.innerHTML = "CGPA Calculator"
 })
 
 function displayCalc1(){
@@ -164,11 +167,11 @@ const returnScroll = function(){
 let btn1C = document.querySelector(".cgpa_btn #calc")
 btn1C.addEventListener("click", calculateCGPA)
 
-let btn2C = document.querySelector(".cgpa_btn #add")
-btn2C.addEventListener("click", displayCourses)
+// let btn2C = document.querySelector(".cgpa_btn #add")
+// btn2C.addEventListener("click", displayCourses)
 
-let btn3C =document.querySelector(".cgpa_btn #reset")
-btn3C.addEventListener("click", reset);
+// let btn3C =document.querySelector(".cgpa_btn #reset")
+// btn3C.addEventListener("click", reset);
 
 
 
