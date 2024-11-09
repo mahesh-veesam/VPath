@@ -221,6 +221,22 @@ function displayCourses(cno){
     }
 }
 
+let EnteredCGPA = document.querySelector("#cgpa")
+let EnteredCredits = document.querySelector("#credits")
+
+EnteredCGPA.addEventListener("input",()=>{
+    if(EnteredCGPA.value >10 ){
+        alert("CGPA should be less than 10");
+        EnteredCGPA.value = ""
+    }
+})
+EnteredCredits.addEventListener("input",()=>{
+    if(EnteredCredits.value > 220 ){
+        alert("Credits should be less than 220");
+        EnteredCredits.value = ""
+    }
+})
+
 function calculateCGPA(){
     let credits = document.querySelectorAll(".credits_c")
     let grades = document.querySelectorAll(".grade_c")
@@ -249,7 +265,7 @@ function displayCGPA(resultCGPA,resultGPA){
     if(resultCGPA == nan){
         rtag.style.display = "none"
         console.log("Not a Number")
-        alert("Select Your Credits and Grades respectively. Thank You!")
+        alert("Enter the required data. Thank You!")
     }
     else{
         rtag.style.display = "flex"

@@ -339,6 +339,7 @@ h3{
     color: white;
     font-size: 1.8vw;
     margin-bottom: 2rem;
+    font-weight: 500;
 }
 .inputs{
     color: white;
@@ -488,7 +489,7 @@ input{
     }
     .mbtn{
         width: 50%;
-        padding:0-20px;
+        padding:0;
     }
     .mbtn p{
         cursor: pointer;
@@ -549,7 +550,8 @@ input{
 
 
     .info{
-        font-size: 4vw;
+        font-size: 4.2vw;
+        font-weight: 600;
     }
     .inputs{
         width: 85vw;
@@ -558,6 +560,7 @@ input{
         padding: 0.7vw;
         align-items: baseline;
         font-size: 4vw; 
+        font-weight: 500;
     }
     #input_last{
         margin-bottom: 3vw;
@@ -587,7 +590,7 @@ input{
     }
     .cgpa h4{
         font-size: 4vw ;
-        font-weight: 400;
+        font-weight: 500;
         margin: 1vw 0;
         margin-right: 8vw; 
         width: 20vw;    
