@@ -67,6 +67,7 @@ function displayGPA(result,cr){
     rtag.style.display = "flex"
     let nan = "NaN"
     if(result == nan){
+        rtag.style.display = "none"
         console.log("Not a Number")
         alert("Select Your Credits and Grades respectively. Thank You!")
     }
@@ -246,7 +247,7 @@ function calculateCGPA(){
     let r = 0
     let cr = 0
     for(let i=0; i<cvalue.value; i++){
-        r = r + credits[i].value*grades[i].value;
+        r = r + credits[i].value*grades[i].value;   
         cr = cr + credits[i].value * 1
     }
 
@@ -270,9 +271,9 @@ function displayCGPA(resultCGPA,resultGPA){
     else{
         rtag.style.display = "flex"
         let ng = document.querySelector("#ng_c")
-        ng.innerHTML = `Your CGPA &nbsp;: &nbsp;${resultCGPA} `
+        ng.innerHTML = ` CGPA &nbsp;: &nbsp;${resultCGPA} `
         let nc =document.querySelector("#nc_c") 
-        nc.innerHTML = `Your GPA &nbsp;: &nbsp;${resultGPA} `
+        nc.innerHTML = ` GPA &nbsp;: &nbsp;${resultGPA} `
         if(resultCGPA<8){
             ng.style.color = "red"
             nc.style.color = "red"

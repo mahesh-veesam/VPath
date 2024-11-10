@@ -457,6 +457,9 @@ ul li{
         transform: scale(1.1);
     }
 }
-
+#boxc:hover .p3{
+    color: rgb(212, 198, 212);
+    font-weight: "700";
+}
 
 
