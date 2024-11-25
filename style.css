@@ -27,10 +27,9 @@ body{
 .head #vpath{
     position: relative;
     margin: 1rem;
-    background-image: var(--color-one);
-    background-clip: text;
-    color: transparent;
-    font-family: gentium-plus;
+    width: 190px;
+    height: 70px;
+    mix-blend-mode:lighten;
 }
 .head #vit{
     position: relative;
