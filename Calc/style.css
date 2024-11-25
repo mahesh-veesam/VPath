@@ -358,7 +358,7 @@ input{
     height: 4vw;
     border: 2px solid rgb(137, 133, 138);
     border-radius: 10px;
-    background-color:rgba(236, 235, 236, 0.932);
+    background-color:rgba(245, 242, 245, 0.966);
     box-shadow: inset 3px 5px 10px rgb(53, 41, 53), inset -1px -1px 6px rgba(58, 51, 56, 0.712);
     padding:0 1vw;
     color: black;
