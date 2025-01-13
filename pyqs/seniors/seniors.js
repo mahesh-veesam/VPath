@@ -25,7 +25,6 @@ function label3(){
         ele.style.transition = "0.6s"
     }
 }
-
 let width = window.innerWidth
 let mobileScreen = width<800;
 console.log(width)
@@ -112,6 +111,69 @@ function swe2001(){
     let name = document.querySelectorAll(".coti");
     for (i of name ) {
         i.innerText="DSA ";
+    }
+}
+function swe2002(){
+    
+    scroll();
+    returnScroll();
+
+    let link = document.querySelectorAll(".di a");
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/12mCikE0TrGLqkc2R90JdCoxfQ4nBt5F-?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/12rnCGChAfK7lLfNw0tnls9_3YAoiQsC-?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/12s7GdqX2dzq1yaIxzRCwVTVstuxenZx2?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/12uccp1yFh9dKTSPOsJ9AaZIG4mtbVrqn?usp=drive_link" );
+
+    let code = document.querySelectorAll(".coco");
+    for(i of code) {
+        i.innerText="SWE2002";
+    }
+
+    let name = document.querySelectorAll(".coti");
+    for (i of name ) {
+        i.innerText="HCI ";
+    }
+}
+function swe2003(){
+    
+    scroll();
+    returnScroll();
+
+    let link = document.querySelectorAll(".di a");
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/14H2WHZMK63ijKdgxdAdLxD176wxqbEMG?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/14C_KLMCLYhdQJpN4zEYTTVlEDhwztvu8?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/14C4ajKpGvZwf4BK-nywQSiGs_CQfjcjF?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/13yUIMXMReJKNy92WYC1-c3HNykHviL3T?usp=drive_link" );
+
+    let code = document.querySelectorAll(".coco");
+    for(i of code) {
+        i.innerText="SWE2003";
+    }
+
+    let name = document.querySelectorAll(".coti");
+    for (i of name ) {
+        i.innerText="REM ";
+    }
+}
+function swe2004(){
+    
+    scroll();
+    returnScroll();
+
+    let link = document.querySelectorAll(".di a");
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1i1S0xAQWhdQQ7d0V2vkK8txT2Fw7WLhc?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1iILjylgzUcUGCe-4eyYlK2_lUCvXWNMe?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1iKmR0Cm05zTdmRBfLK-ms3zp4DA2cUXn?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1iNK4_S-WiAW-IZYYoC0cOTGA3if1a4cs?usp=drive_link" );
+
+    let code = document.querySelectorAll(".coco");
+    for(i of code) {
+        i.innerText="SWE2004";
+    }
+
+    let name = document.querySelectorAll(".coti");
+    for (i of name ) {
+        i.innerText="SDA ";
     }
 }
 function swe2006(){
@@ -309,10 +371,10 @@ function swe3001(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href"," " );
-    link[1].setAttribute("href"," " );
-    link[2].setAttribute("href"," " );
-    link[3].setAttribute("href"," " );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/19kgPsdikNDXZHzTb1wXc94MtlZ4C8EhH?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/19nwUh04q4Ek7N4FLVsdDpHmuIedn8LZY?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/19pZpn1WJnzhAkEcDhtJ8-6HZgAlwgMLn?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1A34jo2e2fDSVHuj7Oai0Kctf8HJdWrq5?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
