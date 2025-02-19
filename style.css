@@ -28,7 +28,7 @@ body{
     position: relative;
     margin: 1rem;
     width: 190px;
-    height: 70px;
+    height: 70px; 
     mix-blend-mode:lighten;
 }
 .head #vit{
@@ -40,56 +40,6 @@ body{
 .space{
     height: 100px;
 }
-/* .aside{
-    margin-top: 100px;
-    height: auto;
-    width: auto;
-    padding: 0rem 3rem;
-    margin: 10px;
-}
-@media(min-width:1000px){
-    .aside{
-        margin-top: 100px;
-        height: auto;
-        width: 50%;
-        padding: 0rem 2rem 0rem 3rem;
-        margin: 2rem 0 2rem 8% ;
-    } 
-    #li2{
-        width: 90%;
-    }
-}
-.aside ul{    
-    list-style-type: none;
-    margin-top: 20px;
-    line-height: 30px;
-
-}
-ul li{
-    margin: 10px;
-    color: rgba(233, 247, 247, 0.945);
-    word-spacing: 2px;
-    color: white;
-}
-.aside h1{
-    margin-left: 3%;
-    letter-spacing: 1px;
-    display: inline;
-}
-#w{
-    background-image: var(--color-one);
-    background-clip: text;
-    color: transparent;
-    font-family: "gentium plus";
-}
-#p{
-    background-image: var(--color-two);
-    background-clip: text;
-    color: transparent;
-    font-family: "gentium plus";
-    font-size: 60px;
-    font-weight: 400;
-} */
 ol,ul{
     padding-left: 7%;
     padding-right: 2%;
@@ -103,10 +53,8 @@ ol,ul{
     flex-direction: row;
     justify-content: space-around;
 }
-.section a{
-    text-decoration: none;
-}
 .section a {
+    text-decoration: none;
     margin: 10px 0px 5px 0px;
     background-image: var(--secondary-color);
     height: 150px;
@@ -114,13 +62,16 @@ ol,ul{
     border-radius: 20px;
     text-align: center;
 }
-#boxc{
-    min-width: 275px;
-}
 .section a:hover{
     background-image: var(--text-color);    
     transform: scale(1.1);
     transition: 0.6s;
+}
+.section a .box i{
+    color: rgb(212, 198, 212);
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
 }
 .box p{
     margin: 0;
@@ -128,11 +79,8 @@ ol,ul{
     font-weight: 600;
     color: rgb(142, 147, 151);
 }
-.section a .box i{
-    color: rgb(212, 198, 212);
-    text-align: center;
-    margin: 20px;
-    font-size: 50px;
+.box3{
+    min-width: 275px;
 }
 .footer{
     position: relative;
@@ -239,7 +187,6 @@ ol,ul{
     display: none;
 }
 .scale{
-    
     padding:  8px; 
     transform: scale(1.1);
 }
@@ -255,29 +202,6 @@ ol,ul{
     .head #vit{
         top: 10px;
         height: 45px;
-    }
-    .aside{
-        margin-top: 100px;
-        height: auto;
-        width: auto;
-        padding: 16px 10px;
-        margin: 12px;
-    }
-    .aside ul{      
-        list-style-type: none;
-        margin-top: 20px;
-        line-height: 30px;
-
-    }
-    ul li{
-        color: rgba(233, 247, 247, 0.945);
-        word-spacing: 2px;
-        color: white;
-    }
-    .aside h1{
-        display: block;
-        letter-spacing: 1px;
-        margin-left: 10%;
     }
     #w{
         background-image: var(--color-one);
@@ -304,34 +228,18 @@ ol,ul{
         justify-content: space-around;
     }
     .section a{
-        text-decoration: none;
-    }
-    .section a{
         position: relative;
         margin: 30px 0px 5px 0px;
-        background-image: var(--secondary-color);
         height: 33vw;
         width: 43%;
-        border-radius: 20px;
-        text-align: center;
     }
-    #boxc{
+    .box3{
         width: 92%;
     }
-    .section a:hover{
-        background-image: var(--text-color);
-        transform: scale(1.1);
-        transition: 0.6s;
-    }
     .box p{
-        margin: 0;
         font-size: 4vw;
-        font-weight: 600;
-        color: rgb(142, 147, 151);
     }
     .section a .box i{
-        color: rgb(212, 198, 212);
-        text-align: center;
         margin: 12px;
         font-size: 11vw;
     }
@@ -366,7 +274,6 @@ ol,ul{
     padding-top: 5% ;
     font-size: 18px;
 }
-
 
 .intro ul{    
     list-style-type: none;
@@ -457,9 +364,16 @@ ul li{
         transform: scale(1.1);
     }
 }
-#boxc:hover .p3{
+.box3:hover .box .p3{
     color: rgb(212, 198, 212);
     font-weight: "700";
 }
-
+.box1:hover .box .p1{
+    color: rgb(212, 198, 212);
+    font-weight: "700";
+}
+.box2:hover .box .p2{
+    color: rgb(212, 198, 212);
+    font-weight: "700";
+}
 

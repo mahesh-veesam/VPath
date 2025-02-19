@@ -115,10 +115,10 @@ function eng1005(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1nlbthgv0vU7xDT2ahQikwOoqe2nOpfaM?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1nqlvkd7gczzqVv44xnmOI5JDMKWlCC3a?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1nsQj97b3YlzbOjskxi2SFudecHT-5b0Q?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1nyUo5P2AWZ7GsmL96QxdcKyDUuYOxVgL?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -135,10 +135,10 @@ function eng1006(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1nXj6b2I-QhSFgFERigVGwBN7HVAh6S5q?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1nZV4Z6Yf0yufdJbfyp59eVioUhxLEUNf?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1na-PtJW4yHIDiaRImSbZtUVd9uFtIfSF?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1ndgy07kMjJZMtuZx0R-9qn9P9dpY4Aqy?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -256,10 +256,10 @@ function eng2004(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1nML1nyE7RMKBMiQwaq5hWdqHz7nRlDf1?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1nMOueQTw8jsEZk_q5RtcdCZYru7hMY37?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1nQa44CLvitwzLsw-1D91ftcwQDagLAA4?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1nXZea6RzfZyZEYwKglVXQOQFOrNturb3?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -376,10 +376,10 @@ function ece1003(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-     link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-     link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1HlxGiSWQwNzL8i9Jf4rrFgr7pDdnF43_?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1KYfL7rpEQuwyovGb_WaFHyo0FW5aEbPH?usp=drive_link" );
+     link[2].setAttribute("href","https://drive.google.com/drive/folders/1x84CM3OM_p8Kp7zJ5KbBP1x4sLcXdg1P?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1zrTnZ_Vic99JgwBNO2sA3bTwRI45yRZf?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -399,7 +399,7 @@ function eng1002(){
     link[0].setAttribute("href","https://drive.google.com/drive/folders/1IYzXKk3ugxYO85GD0On4VnxmtPWtDwgY?usp=drive_link" );
     link[1].setAttribute("href","https://drive.google.com/drive/folders/1I_lGen6bX2__WDcMo-Wy4pExX_khtqC7?usp=drive_link" );
      link[2].setAttribute("href","https://drive.google.com/drive/folders/1IdbAS7uuur7rBe3DwKm6AazIj64l4tdc?usp=drive_link" );
-     link[3].setAttribute("href","https://drive.google.com/drive/folders/1IdbAS7uuur7rBe3DwKm6AazIj64l4tdc?usp=drive_link" );
+     link[3].setAttribute("href","https://drive.google.com/drive/folders/1IeMm_KgvNjJDTruPTeAg05wARxE5ajvT?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -455,10 +455,10 @@ function cse2005(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1j5cNzevCnt3DnXMYBY1NVkNBrzQipkmI?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/18xeL8TkJGesobmIyqiXHUfmfX3NcAudw?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1_WzQBvmPLrqkHMqrNm5vf-qymuzh0tWU?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1WYZDP08SlUIkmYndZx-AifmPoXnHgg_8?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
@@ -475,10 +475,10 @@ function eng2001(){
     returnScroll();
 
     let link = document.querySelectorAll(".di a");
-    link[0].setAttribute("href","https://drive.google.com/drive/folders/1TAFfJmPzviC2NyBEulyFlCHT0P1f_90d?usp=drive_link" );
-    link[1].setAttribute("href","https://drive.google.com/drive/folders/1TF10L1ErmwNsICGSMMH0PLt8xDfZM6ED?usp=drive_link" );
-    link[2].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
-    link[3].setAttribute("href","https://drive.google.com/drive/folders/1TFDF4Ihkm_6J8nf0WICUrj8EpAk6nmgv?usp=drive_link" );
+    link[0].setAttribute("href","https://drive.google.com/drive/folders/1kdeAPK33iMjHknMux0f2wmxIftNCIU4p?usp=drive_link" );
+    link[1].setAttribute("href","https://drive.google.com/drive/folders/1LRC9tqkDdgvkl0j9Hx2kK0-i8Ipk9ggC?usp=drive_link" );
+    link[2].setAttribute("href","https://drive.google.com/drive/folders/1BqoZVBa0BorFroSJzBebI4GZqMlyCiGP?usp=drive_link" );
+    link[3].setAttribute("href","https://drive.google.com/drive/folders/1lUQ83HC1W2kF6ADniYvD8lPH3ZtmJ2S1?usp=drive_link" );
 
     let code = document.querySelectorAll(".coco");
     for(i of code) {
