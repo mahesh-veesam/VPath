@@ -27,6 +27,10 @@ btns3.forEach(btn => {
     });
 });
 
+let text = document.querySelector(".container .sub h5")
+
+
+
 function mat1008(){
     scroll();
     returnScroll();
