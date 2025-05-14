@@ -79,9 +79,6 @@ ol,ul{
     font-weight: 600;
     color: rgb(142, 147, 151);
 }
-.box3{
-    min-width: 275px;
-}
 .footer{
     position: relative;
     margin-top: 30px;
@@ -240,7 +237,7 @@ ol,ul{
         font-size: 4vw;
     }
     .section a .box i{
-        margin: 12px;
+        margin: 15px;
         font-size: 11vw;
     }
 }
@@ -364,15 +361,7 @@ ul li{
         transform: scale(1.1);
     }
 }
-.box3:hover .box .p3{
-    color: rgb(212, 198, 212);
-    font-weight: "700";
-}
 .box1:hover .box .p1{
-    color: rgb(212, 198, 212);
-    font-weight: "700";
-}
-.box2:hover .box .p2{
     color: rgb(212, 198, 212);
     font-weight: "700";
 }
