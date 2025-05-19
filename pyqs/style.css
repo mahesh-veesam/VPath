@@ -172,7 +172,7 @@ h3{
 }
 .container .sem{
     margin-left: 38px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-weight: 400;
 
 }
@@ -207,15 +207,40 @@ h3{
 .card i:hover{
     color: rgb(255, 255, 255);
 }
-.sub h5{
-    color:  rgb(218, 218, 250); 
-    padding: 8px 26px;
-    padding-bottom: 0px; 
-    cursor:auto;
+.sub .h5{
+    background-color: rgba(1, 25, 78, 0.521);
+    margin: 20px 40px 50px;
+    padding: 20px;
+    color:  rgb(218, 218, 250);
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub .h5 i{
+    color: rgb(212, 198, 212);
+    text-align: center;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.sub .h5 i:hover{
+    transform: none;
+}
+.sub .h5 h5{
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    user-select: none;
 }
 .sub{
     text-align: center; 
-    margin-top: 60px;
+    margin-top: 50px;
+}
+.sub:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 .space{
     height: 50px;
@@ -277,7 +302,7 @@ h3{
     transition: 0.5s;
     opacity: 1;
     color: #0075b7;
-} */
+} */    
 h5{
     color: white;
 }

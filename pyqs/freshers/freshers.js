@@ -27,9 +27,11 @@ btns3.forEach(btn => {
     });
 });
 
-let text = document.querySelector(".container .sub h5")
+let link = document.querySelector(".container .sub")
 
-
+link.addEventListener("click",function(){
+    window.location.href = "https://vpath.onrender.com/courses"
+})
 
 function mat1008(){
     scroll();

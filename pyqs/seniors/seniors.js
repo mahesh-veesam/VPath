@@ -70,6 +70,12 @@ btns3.forEach(btn => {
     });
 });
 
+let link = document.querySelector(".container .sub")
+
+link.addEventListener("click",function(){
+    window.location.href = "https://vpath.onrender.com/courses"
+})
+
 
 // PYQs Links
 
